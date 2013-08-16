@@ -1,4 +1,11 @@
 # Python 101, p. 32
+""" There are two different ways to solve the same problem here.
+See the difference btw test1 and test2.
+
+Also, at the end of line, there's a function declaring global function.
+This is only for this local block of codes. Not importing.
+"""
+
 def function1():
     print "Hi. I'm function1."
 def function2():
@@ -22,6 +29,8 @@ def test1():
         else:
             error_function()
 
+# Note get() function
+
 def test2():
     mapper = {'one':function1, 'two':function2, 'three':function3}
     while 1:
@@ -33,9 +42,9 @@ def test2():
 
 def test():
     test1()
-    print '-' * 20 + 'end of test1' + '-' * 20
+    print '-' * 10 + "buil-in function 'break' is enabled. ending test1" + '-' * 10
     test2()
-    print '-' * 20 + 'end of test2' + '-' * 20
+    print '-' * 10 + "buil-in function 'break' is enabled. ending test2" + '-' * 10
 
 if __name__ == '__main__':
     test()
