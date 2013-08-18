@@ -1,7 +1,8 @@
 import json
-from restkit import Resource, BasicAuth, Connection, request
+
 from socketpool import ConnectionPool
- 
+from restkit import Resource, BasicAuth, Connection, request
+
 pool = ConnectionPool(factory=Connection)
 serverurl="https://api.github.com"
  
