@@ -6,7 +6,7 @@ pool = ConnectionPool(factory=Connection)
 serverurl="https://api.github.com"
  
 # Add your username and password here, or prompt for them
-auth=BasicAuth(user, password)
+auth=BasicAuth(mchoimis, password)
  
 # Use your basic auth to request a token
 # This is just an example from http://developer.github.com/v3/
