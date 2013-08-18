@@ -7,7 +7,7 @@ This parameter can be the full domain name (ie. "stackoverflow.com"),
 or a short form identified by ::api_site_parameter:: on the site object.
 """
 
-from stackpy import API, stackoverflow.com
+from stackpy import API, StackOverflow
 
 # Print the names of all Stack Exchange sites
 for stackoverflow.com in API.sites:

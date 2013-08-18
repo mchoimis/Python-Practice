@@ -1,6 +1,6 @@
 from github3 import login
 
-gh = login('mchoimis', password='snu10338')
+gh = login('mchoimis', password='password')
 
 sigmavirus24 = gh.user()
 # <User [sigmavirus24:Ian Cordasco]>
@@ -23,3 +23,5 @@ print(kennethreitz.login)
 print(kennethreitz.followers)
 
 followers = [str(f) for f in gh.iter_followers('kennethreitz')]
+
+print followers
