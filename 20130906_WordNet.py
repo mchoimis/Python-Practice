@@ -45,5 +45,4 @@ cat = wn.synset('cat.n.01')
 # in which case -1 is returned.
 # A score of 1 represents identity i.e. comparing a sense with itself will return 1.
 
-
-
+dog.path_similarity(cat)
