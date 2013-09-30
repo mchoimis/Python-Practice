@@ -1,0 +1,19 @@
+status: 301
+content-length: 0
+x-node: web39, www_all
+content-location: http://honzinator.yelp.com
+set-cookie: yuv=07JRBqwI5TgrFjfnht9re_grGdtfH9awSFtL_0MNsnNa6tKxIeae72ntwq1aDZq-b2aypb4Y_JY3lZ5b8yrPjXQ4odHXLeGY;
+ Domain=.yelp.com; Max-Age=630720000; Path=/;
+ expires=Sun, 25-Sep-2033 10:32:49 GMT, bse=913bcfbee8a856b957bac639e5c77ea6;
+ Domain=.yelp.com; Path=/; HttpOnly
+vary: User-Agent
+server: Apache
+location: http://www.yelp.com/user_details?userid=x-LrGPXN7WFX15Qk9B6_YQ
+cache-control: private
+date: Mon, 30 Sep 2013 10:32:49 GMT
+x-proxied: lb1
+-x-permanent-redirect-url: http://www.yelp.com/user_details?userid=x-LrGPXN7WFX15Qk9B6_YQ
+content-type: text/html; charset=UTF-8
+x-mode: ro
+-varied-user-agent: Python-httplib2/0.8 (gzip)
+

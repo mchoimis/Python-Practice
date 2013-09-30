@@ -3,7 +3,7 @@ import requests
  
  
 GITHUB_USER = 'mchoimis'
-GITHUB_PASSWORD = 'password'
+GITHUB_PASSWORD = 'snu10338'
 REPO = 'bower/bower'  # format is username/repo
 ISSUES_FOR_REPO_URL = 'https://api.github.com/repos/%s/issues' % REPO
 AUTH = (GITHUB_USER, GITHUB_PASSWORD)
