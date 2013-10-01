@@ -1,0 +1,1957 @@
+status: 200
+content-length: 96856
+x-node: web50, www_all
+content-location: http://www.yelp.com/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&start=60
+set-cookie: yuv=eJ8Nofo8JHxtIls72m6-WEQ5I0qaPPlrxtJuDfUKDkzQs6JU8jh24-Kp3KtBYOC-n0GqbsoWoMDDiGwH1MIzrwNfN994BTMu;
+ Domain=.yelp.com; Max-Age=630720000; Path=/;
+ expires=Mon, 26-Sep-2033 07:20:09 GMT, bse=32c81e087cbeb49481ba5d016bbf3c7e;
+ Domain=.yelp.com; Path=/; HttpOnly, hl=en_US; Domain=.yelp.com;
+ Max-Age=630720000; Path=/; expires=Mon, 26-Sep-2033 07:20:09 GMT,
+ recentlocations=San+Francisco%2C+CA%2C+USA; Domain=.yelp.com;
+ Path=/,
+ location=%7B%22city%22%3A+%22Twin+Cities%22%2C+%22zip%22%3A+%22%22%2C+%22address1%22%3A+%22%22%2C+%22address2%22%3A+%22%22%2C+%22address3%22%3A+%22%22%2C+%22state%22%3A+%22MN%22%2C+%22country%22%3A+%22US%22%2C+%22unformatted%22%3A+%22Minneapolis-St+Paul%22%7D;
+ Domain=.yelp.com; Max-Age=630720000; Path=/;
+ expires=Mon, 26-Sep-2033 07:20:09 GMT,
+ ppn=%7B%22impressions%22%3A+1%2C+%22dismissed%22%3A+false%7D; Domain=.yelp.com;
+ Max-Age=2592000; Path=/; expires=Thu, 31-Oct-2013 07:20:09 GMT
+vary: Accept-Encoding,User-Agent
+server: Apache
+-content-encoding: gzip
+cache-control: private
+date: Tue, 01 Oct 2013 07:20:09 GMT
+x-proxied: lb1
+content-type: text/html; charset=UTF-8
+x-mode: ro
+-varied-accept-encoding: gzip, deflate
+-varied-user-agent: Python-httplib2/0.8 (gzip)
+
+<!DOCTYPE HTML>
+
+<!--[if lt IE 7 ]> <html xmlns:fb="http://www.facebook.com/2008/fbml" class="ie6 ie ltie9 ltie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html xmlns:fb="http://www.facebook.com/2008/fbml" class="ie7 ie ltie9 ltie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html xmlns:fb="http://www.facebook.com/2008/fbml" class="ie8 ie ltie9 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html xmlns:fb="http://www.facebook.com/2008/fbml" class="ie9 ie no-js" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html xmlns:fb="http://www.facebook.com/2008/fbml" class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+		
+
+		
+		
+
+
+<script type="text/javascript">
+			var initialVisibilityState = document.webkitVisibilityState;
+
+				yPerfTimings = [];
+
+					window.yelp = window.yelp || {};
+					yelp.performance = {};
+					yelp.performance.timings = {};
+
+						yelp.performance.timings.headStartTimestamp = (new Date()).getTime();
+
+				window._gaq = window._gaq || [];
+
+	_gaq.push(
+		['_setAccount', "UA-30501-1"],
+		['_setDomainName', "yelp.com"],
+		['_setCustomVar', 1, "User Status", "anonymous", 3],
+
+		['._setCustomVar', 2, 'from_qype', 'false', 1],
+
+		['_setCustomVar', 4, "account level", "anon", 1],
+
+		['_setCustomVar', 5, 'content_country', "US", 3],
+
+			["_trackPageview"]
+
+	);
+
+	_gaq.push(
+		['www._setAccount', "UA-30501-24"],
+		['www._setDomainName', "yelp.com"],
+		['www._setCustomVar', 1, "User Status", "anonymous", 3],
+
+		['www._setCustomVar', 2, 'from_qype', 'false', 1],
+
+		['www._setCustomVar', 4, "account level", "anon", 1],
+
+		['www._setCustomVar', 5, 'content_country', "US", 3],
+
+		
+
+			["www._trackPageview"]
+
+	);
+
+		_gaq.push(
+			['domainTracker._setAccount', "UA-30501-10"],
+			['domainTracker._setDomainName', "yelp.com"],
+
+			['domainTracker._setCustomVar', 1, "User Status", "anonymous", 3],
+
+			['domainTracker._setCustomVar', 2, 'from_qype', 'false', 1],
+
+			['domainTracker._setCustomVar', 5, 'content_country', "US", 3],
+
+				["domainTracker._trackPageview"]
+
+		);
+
+
+			(function(H){H.className=H.className.replace(/\bno-js\b/,'js');})(document.documentElement);
+
+
+</script>
+					<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta http-equiv="Content-Language" content="en">
+			<meta name="description" content="Yelp is a fun and easy way to find, recommend and talk about what's great   and not so great   in San Francisco and beyond. Members share their favorite recommendations   everything from the latest restaurants and shops, to the best hair salons…">
+				<meta name="keywords" content="Yelp,recommendation,San Francisco, bay area, local,business,review,friend,restaurant,dentist,doctor,salon,spa,shopping,store,share,community,massage,sushi,pizza,nails,New York,Los Angeles">
+			<meta http-equiv="imagetoolbar" content="no">
+
+					<meta name="apple-itunes-app" content="app-id=284910350">
+
+
+			
+
+	<meta name="application-name" content="Yelp">
+
+	<meta name="msapplication-TileImage" content="http://s3-media3.ak.yelpcdn.com/assets/2/www/img/7f906850f02b/ico/win8-tile.png">
+	<meta name="msapplication-TileColor" content="#c41200">
+
+	<meta name="msapplication-starturl" content="http://www.yelp.com/">
+	<meta name="msapplication-navbutton-color" content="#c41200">
+	<meta name="msapplication-window" content="width=1024;height=768">
+	<meta name="msapplication-tooltip" content="Go to Yelp.com">
+
+	<meta name="msapplication-task" content="name=Find Reviews; action-uri=/; icon-uri=http://s3-media1.ak.yelpcdn.com/assets/2/www/img/a6bbc59c7458/ico/favicon-16x16.ico">
+	<meta name="msapplication-task" content="name=Hot New Businesses; action-uri=/openings; icon-uri=http://s3-media1.ak.yelpcdn.com/assets/2/www/img/a6bbc59c7458/ico/favicon-16x16.ico">
+	<meta name="msapplication-task" content="name=Yelp Deals; action-uri=/search?find_desc=deals; icon-uri=http://s3-media1.ak.yelpcdn.com/assets/2/www/img/a6bbc59c7458/ico/favicon-16x16.ico">
+
+
+		
+			<title>Review of the Day Archive | Yelp</title>
+
+
+<script type="text/javascript">
+					yelp.performance.timings.headCSSStartTimestamp = (new Date()).getTime();
+
+
+</script>
+					<link rel="stylesheet" type="text/css" media="all" href="http://s3-media4.ak.yelpcdn.com/assets/2/www/css/9cce69489c9b/www-pkg-en_US.css">
+	<link rel="stylesheet" type="text/css" media="all" href="http://s3-media2.ak.yelpcdn.com/assets/2/www/css/3e4284c95ca8/browse-en_US.css">
+
+<script type="text/javascript">
+					yelp.performance.timings.headCSSEndTimestamp = (new Date()).getTime();
+
+
+</script>
+				
+				
+<script type="text/javascript">
+					yelp.performance.timings.headJSStartTimestamp = (new Date()).getTime();
+
+</script>
+		
+
+<script type="text/javascript">
+										
+	window.Yelp = window.Yelp || {};
+
+	var imagesHostUrl = "http://media1.ak.yelpcdn.com" + '/';
+
+	Yelp.unique_request_id = "0397a013080f4467";
+	Yelp.cookie_domain = ".yelp.com";
+
+	window.yelp = window.yelp || {};
+	window.yelp.config = window.yelp.config || {};
+	window.yelp.biz_domain = "biz.yelp.com";
+	window.yelp.img_serial = "20130813";
+	window.yelp.js_serial = "20120626";
+
+	yelp.lang = yelp.lang || {};
+	yelp.lang.locales = ["en_US"];
+	yelp.lang.languages = ["en"];
+
+
+
+
+					yelp.config = {"cdn_origin_yelp": 1, "cookies": {"ADMIN_SEARCH_USERDATA": "ud", "ADMIN_SEARCH_USERDATA_LOCATION": "udl", "SIGNUP_TRACK": "strack", "SUGGEST_COOKIE": "ssi", "ADMIN_SEARCH_USERDATA_RADIUS": "udr", "RECENT_LOCATIONS": "recentlocations", "SEARCH_PREFS": "searchPrefs", "JS_TRACK": "js_track", "HIDE_BROWSER_BAR": "hidebrowserbar", "YUV": "yuv", "QUANTCAST": "qntcst", "USED_LOCALE_SELECTOR": "used_locale_selector", "SELECTED_ACTIVITY_FEED": "fd", "COOKIE_INFO": "cim", "LOCATION": "location", "DEBUG": "debug", "PRIVACY_POLICY_NOTICE": "ppn", "ADMIN_CM_SCOREBOARD_SETTINGS": "acms", "MESSAGE_SENDER_PASSED_CAPTCHA": "mspc", "SEARCH_SUGGEST_INFO": "search_suggest", "ADMIN_BUSINESS_ATTRIBUTE_CHANGESET_UTILS_PREFS": "bap"}, "uid": null, "classLoggerLevel": "error", "url_scheme": "http", "isFBAsyncSSL": true, "enabledSitRepChannels": {"frontend_performance": true}, "fbuid": null, "isLoggedIn": false, "isInSignupExperiment": true, "isReadOnlyMode": false, "isSitRepEnabled": true, "isFBICEnabled": true, "comscore": {"c15": "", "c3": "", "c2": 7130511, "c1": 2, "c6": "", "c5": "", "c4": ""}, "isClientErrorsEnabled": false, "isReviewLanguageDetectionEnabled": true, "cdn_origin_s3": 2, "bizownerSiteURL": "https://biz.yelp.com/", "showSpellChecker": true, "mobileUA": false, "uniqueRequestID": "0397a013080f4467", "fbappid": 97534753161, "servletName": "browse", "url": {"captcha": "https://www.google.com/recaptcha/api/js/recaptcha_ajax.js", "dragdrop": "http://s3-media1.ak.yelpcdn.com/assets/2/www/js/ab8ca71c0b6b/vendor/prototype/dragdrop.min.js", "categoryYelpChooser": "http://s3-media1.ak.yelpcdn.com/assets/2/www/js/107f2e47dd65/category_yelp_chooser.min.js", "effects": "http://s3-media4.ak.yelpcdn.com/assets/2/www/js/e28ca1f9af10/prototype_effects-pkg.min.js"}, "cdn_shards": 4, "hideFBSyncFloater": true, "cdn_static_hostname_pattern": "s3-media%s.ak.yelpcdn.com", "cdn_origin": 2, "recaptchaPublicKey": "6Lc2978SAAAAADHkLB3mdFpNLLfBP5CYnqlR0gz6", "bingMapsKey": "AvoTBU5YW57X2zdsJlJstIBzH6emsqH64BeuUs_smf7Vcw8QPLG9mM1U3Y6Oz2rT"};
+
+						yelp.util = {};
+						yelp.util.SitRepParams = {"clientIP": "184.77.152.249", "datacenter": "365", "action": "default", "uniqueRequestID": "0397a013080f4467", "isLoggedIn": false, "yuv_record": "eJ8Nofo8JHxtIls72m6-WEQ5I0qaPPlrxtJuDfUKDkzQs6JU8jh24-Kp3KtBYOC-n0GqbsoWoMDDiGwH1MIzrwNfN994BTMu", "site": "main", "serverStartTime": 1380612009416};
+						yelp.util.SitRepParams['initialVisibilityState'] = initialVisibilityState;
+
+
+</script>
+		
+					
+<script type="text/javascript">
+					yelp.performance.timings.headJSMainLibrariesStartTimestamp = (new Date()).getTime();
+
+</script>
+		
+					<script src="http://s3-media4.ak.yelpcdn.com/assets/2/www/js/f406def6fdeb/www-pkg-en_US.min.js" type="text/javascript"></script>
+
+					
+<script type="text/javascript">
+					yelp.performance.timings.headJSMainLibrariesEndTimestamp = (new Date()).getTime();
+
+</script>
+		
+
+			<script type="text/javascript">yelp.init.wrapper("yelp.init.base.header", {"countryNameList": ["australia", "austria", "belgium", "brazil", "canada", "czech republic", "denmark", "finland", "france", "germany", "ireland", "italy", "new zealand", "norway", "poland", "singapore", "spain", "sweden", "switzerland", "netherlands", "turkey", "uk", "usa"], "showHoodsList": false, "locationSuggestServiceEnabled": true, "searchSuggestEnabled": true});</script>
+
+
+
+
+<script type="text/javascript">
+
+
+</script>
+		
+
+
+<script type="text/javascript">
+									yelp.performance.timings.headJSEndTimestamp = (new Date()).getTime();
+
+
+</script>
+		
+		<link rel="shortcut icon" href="http://s3-media2.ak.yelpcdn.com/assets/2/www/img/118ff475a341/ico/favicon.ico">
+
+
+<script type="text/javascript">
+						yelp.performance.timings.headEndTimestamp = (new Date()).getTime();
+
+					yelp.util.SitRep.init();
+
+
+</script>
+		
+
+		<link rel="search" type="application/opensearchdescription+xml" href="/opensearch" title="Yelp" />
+
+
+	</head>
+
+
+
+
+
+
+	<body id="yelp_main_body" class="us logged-out">
+
+<script type="text/javascript">
+					yelp.util.SitRep.measureInternal("frontend_performance", "body:start");
+
+
+</script>
+		
+			<div id="fb-root"></div>
+					<fb:connect-bar autorefresh="true" onNotDisplay="yelp.hub.publish('ext.FB.bluebar', false);" onClose="yelp.ui.blueBarToggle(false); yelp.hub.publish('ext.FB.bluebar', false);" onDisplay="yelp.ui.blueBarToggle(true); yelp.hub.publish('ext.FB.bluebar', true);"></fb:connect-bar>
+
+			<script type="text/javascript">yelp.init.wrapper("yelp.util.JSTrack.init", null);</script>
+
+
+		<div id="wrap" class="lang-en">
+					
+	
+
+		<div class="header-top-addons clearfix">
+			<div class="header-container">
+				
+		<div id="fb-notice" class="drop-menu-origin facebook-instant" style="display: none;">
+			<img width="20" height="20" id="fb-notice-pic" src="http://s3-media1.ak.yelpcdn.com/assets/2/www/img/325472601571/p.gif" class="header-user-photo">
+			<span>Yelp is using Facebook to personalize your experience.</span>
+			<div class="fb-menu inline-block">
+				<a href="#" id="fb-notice-options-link" class="header-link drop-menu-link">
+					<span  class="i-wrap ig-wrap-common i-dropdown-arrow-common-wrap ig-wrap-common-r dropdown-arrow"><i  class="i ig-common i-dropdown-arrow-common"></i> Options</span>
+				</a>
+				<ul id="fb-notice-options" class="drop-menu">
+					<li>
+						<a href="/static?p=fb_yelp">What is this?</a>
+					</li>
+					<li>
+						Not you?<br>
+						<a href="#" id="fb-logout-link">Log out of Facebook</a>
+					</li>
+					<li>
+						Don't want to be connected?<br>
+						<a href="/static?p=fb_yelp">How to turn this off</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+				
+
+			</div>
+		</div>
+
+
+	<ul class="offscreen">
+		<li>
+			<a href="#header_find_form" rel="nofollow">Skip to Search Form</a>
+		</li>
+		<li>
+			<a href="#header-nav" rel="nofollow">Skip to Navigation</a>
+		</li>
+		<li>
+			<a href="#page-content" rel="nofollow">Skip to Page Content</a>
+		</li>
+	</ul>
+
+	<div class="app-header">
+		<div id="mastHead" class="webview-hidden header-container clearfix">
+				<h1 class="logo"><a href="/">Yelp</a></h1>
+
+
+			<form method="get" action="/search" id="header_find_form" class="header-search-form">
+				<label class="flex-container-inline search-field find-decorator">
+					<div class="label">Find</div>
+					<div class="flex-box input-holder">
+						<input autocomplete="off" id="find_desc" maxlength="64" name="find_desc" placeholder="tacos, cheap dinner, Max’s" tabindex="1" value="">
+					</div>
+				</label>
+
+				<label class="flex-container-inline search-field near-decorator">
+					<div class="label">Near</div>
+					<div class="flex-box input-holder">
+						<input id="dropperText_Mast" maxlength="64" name="find_loc" placeholder="address, neighborhood, city, state or zip" tabindex="2" value="Minneapolis-St Paul">
+						<input type="hidden" name="ns" value="1">
+					</div>
+				</label>
+				<div class="button-container">
+					<button id="header-search-submit" tabindex="3" title="Search" type="submit" value="submit" class="ybtn ybtn-primary ybtn-large header-button"><span><i  class="i ig-common i-search-common"></i></span></button>
+				</div>
+			</form>
+
+			
+<script type="text/javascript">
+				yelp.util.SitRep.measureInternal("frontend_performance", "search_bar:rendered");
+
+
+</script>
+		
+
+				<div class="header-account webview-hidden">
+			<ul class="logged-out-nav">
+				<li>
+					<a href="https://www.yelp.com/signup" id="header-sign-up" class="ybtn ybtn-primary ybtn-large header-button sign-up">Sign Up</a>
+				</li>
+				<li>
+					<a class="log-in" href=https://www.yelp.com/login?return_url=%2Fbrowse%2Freviews%2Fpicks%3Fedition_id%3DO0nmI3IrPyK_jhDK6spZUQ%26start%3D60>Log In</a>
+				</li>
+			</ul>
+	</div>
+
+
+			<ul class="header-nav" id="header-nav">
+				<li class="inline-block">
+					<a href="/">Home</a>
+				</li>
+
+
+
+				<li id="about-me" class="inline-block">
+					<a href="/signup?return_url=%2Fuser_details" id="Zabout_me">About Me</a>
+				</li>
+
+
+				<li id="write-review" class="inline-block">
+					<a href="/writeareview" id="Zwrite_a_review">Write a Review</a>
+				</li>
+
+
+
+				<li id="find-friends" class="inline-block">
+					<a href="/signup?return_url=%2Ffind_friends%2F" id="Zfind_friends">Find Friends</a>
+				</li>
+
+
+
+				<li id="messaging" class="inline-block">
+					<a href="/signup?return_url=%2Fmail" id="Zmail">Messages</a>
+				</li>
+
+
+				<li id="talk" class="inline-block">
+					<a href="/talk">Talk</a>
+				</li>
+
+					<li id="events" class="inline-block">
+						<a 
+href="/events/twin-cities">Events</a>
+					</li>
+			</ul>
+		</div>
+	</div>
+	
+
+
+
+
+
+				
+				
+
+
+					<script type="text/javascript">yelp.init.wrapper("yelp.util.analytics.GA.trackNavClicks", null);</script>
+
+
+				<div id="print-masthead">
+		<img src="http://s3-media2.ak.yelpcdn.com/assets/2/www/img/b7e9d647188d/gfx/header_print.gif" class="print-bkg-img" alt="Yelp">
+	</div>
+
+
+
+			<span id="page-content" class="offscreen">&nbsp;</span>
+
+
+			<div id="super-container">
+									<div id="privacy-policy-notice" class="alert alert-info privacy-policy-notice">
+		<button href="javascript:;" id="policy-cookie-dismiss" type="submit" value="submit" class="ybtn ybtn-tertiary ybtn-large ytype pull-right"><span>OK</span></button>
+		<p class="alert-message">
+				<b>Hey there!</b>
+	We’ve updated our Privacy Policy — you can check out the new version <a href="http://www.yelp.com/tos/privacy_en_us_20130910">here</a>.
+
+		</p>
+	</div>
+
+				<script type="text/javascript">yelp.init.wrapper("yelp.init.initPrivacyPolicyCookieNotice", {"ppnCookieInfo": {"path": "/", "domain": "yelp.com", "name": "ppn", "max_age": 2592000}, "privacyOrCookie": "privacy", "selector": "#privacy-policy-notice"});</script>
+
+
+
+	<div id="alert-container">
+
+	</div>
+
+
+<div class="container">
+<div class="clearfix layout-block layout-full">
+<div class="column column-alpha rotd-archive">
+					<div id="loc-bar" class="ieSucks clearfix">
+		<h2 class="ROTD-archive-header">
+			Review Of The Day Archive for Minneapolis-St Paul
+		</h2>
+		<a href="/potd_explanation" id="potd-explanation-link" class="smallest">What's this?</a>
+		<ul id="other-cities-list" class="ROTD-cities-list">
+			<li id="loc-bar-title">Other cities: </li>
+				<li>	<a href="/browse/reviews/picks?edition_id=c6HT44PKCaXqzN_BdgKPCw">San Francisco</a></li>
+				<li>	<a href="/browse/reviews/picks?edition_id=zT0PuDsIV-S7M-W_NaX9vw">San Jose</a></li>
+				<li>	<a href="/browse/reviews/picks?edition_id=fFGPBtsutYpn3A155Sf75Q">Boston</a></li>
+				<li>	<a href="/browse/reviews/picks?edition_id=nkN_do3fJ9xekchVC-v68A">Austin</a></li>
+			<li><a href="/browse/reviews/picks_cities" id="loc-box-toggle">More &raquo;</a></li>
+		</ul>
+
+		<script type="text/javascript">yelp.init.wrapper("yelp.pages.initLocBox", {"elementID": "loc-box-toggle", "locationPickerJS": "http://s3-media1.ak.yelpcdn.com/assets/2/www/js/7bc14bf5c860/location_functions.min.js", "options": {"ajax_url": "/browse/reviews/picks_loc_box_toggle"}});</script>
+
+	</div>
+			<script src="http://s3-media4.ak.yelpcdn.com/assets/2/www/js/e28ca1f9af10/prototype_effects-pkg.min.js" type="text/javascript"></script>
+	<script src="http://s3-media1.ak.yelpcdn.com/assets/2/www/js/ab8ca71c0b6b/vendor/prototype/dragdrop.min.js" type="text/javascript"></script>
+		<script src="http://s3-media3.ak.yelpcdn.com/assets/2/www/js/9b4336154f39/speller/spellChecker.min.js" type="text/javascript"></script>
+
+
+		<div id="pagerTop">
+						<table cellpadding="0" cellspacing="0" border="0" width="95%" class="fs_pagination_controls">
+		<tr>
+			<td class="range-of-total">
+					<span>61 to 70 of 1893</span>
+			</td>
+				<td class="go-to-page">
+					<span class="pagination-text">Go to Page</span>
+					 ... 
+							<a id="pager_page_3" class="pager-page" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=20"> 3</a>
+							<a id="pager_page_4" class="pager-page" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=30"> 4</a>
+							<a id="pager_page_5" class="pager-page" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=40"> 5</a>
+							<a id="pager_page_6" class="pager-page" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=50"> 6</a>
+							<strong>7</strong>
+							<a id="pager_page_8" class="pager-page" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=70"> 8</a>
+							<a id="pager_page_9" class="pager-page" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=80"> 9</a>
+							<a id="pager_page_10" class="pager-page" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=90"> 10</a>
+							<a id="pager_page_11" class="pager-page" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=100"> 11</a>
+					 ... 
+				</td>
+				<td align="right" class="nav-links"><a id="pager_page_prev" class="pager-page" accesskey="p" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=50">Previous</a> | <a id="pager_page_next" class="pager-page" accesskey="n" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=70">Next</a></td>
+		</tr>
+	</table>
+
+		</div>
+<div class="clearfix media-block browse-reviews-row">
+<div class="media-avatar">
+												<strong  class="i-wrap ig-wrap-common i-yellow-star-common-wrap"><i  class="i ig-common i-yellow-star-common"></i> ROTD 8/2/2013</strong>
+								<div class="user-passport">
+			
+
+
+
+	<div class="photo-box pb-ms">
+			<a href="http://www.yelp.com/user_details?userid=H5zyoMZzZr_SEYEpPo0QdA">
+				<img alt="Photo of Suze S." class="photo-box-img" height="100" src="http://s3-media4.ak.yelpcdn.com/photo/2n2IAtVYIko9SFgLQRvMaA/ms.jpg" width="100">
+			</a>
+	</div>
+
+			<ul class="user-stats">
+		<li class="friend-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-friends-orange-common-wrap"><i  class="i ig-common i-friends-orange-common"></i> 79 <span class="offscreen">friends</span></span>
+		</li>
+		<li class="review-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-star-orange-common-wrap new-star-icon"><i  class="i ig-common i-star-orange-common"></i> 61 <span class="offscreen">reviews</span></span>
+		</li>
+	</ul>
+
+
+			<ul class="user-passport-info ieSucks">
+					<li class="user-name">
+										<a href="http://www.yelp.com/user_details?userid=H5zyoMZzZr_SEYEpPo0QdA">Suze S.</a>
+
+					</li>
+					<li class="user-location">Cottage Grove, MN</li>
+			</ul>
+	</div>
+
+
+
+</div><div class="media-story">
+						<div class="browseReviewsReview">
+							<div class='rating-stats'>
+								<a href="/biz/teahouse-saint-paul-2#hrid:gYnDkT3l7IDj-JMXxTP7PA" class="browseReviewsBizName">Teahouse</a>
+									
+		<div class="rating">
+		<i class="star-img stars_4" title="4.0 star rating">
+			<img alt="4.0 star rating" class="offscreen" height="303" src="http://s3-media3.ak.yelpcdn.com/assets/2/www/img/7d58085d03a1/ico/stars/v2/stars_map.png" width="84">
+		</i>
+	</div>
+
+
+								<em>2/25/2013</em>
+							</div>
+							<p>
+								One of the better options for "Asian" food on the East Side! Generally Szechuan-style, with a few outliers. <br><br>The place has nice atmosphere, beautiful decor. The waitstaff is brisk and punctual, but not what I'd call friendly. <br><br>I adore the Juicy Buns appetizer. It's a little steamed dumpling with pork and broth inside it. Use the spoon, pour the sauce over it. Take a small bite and suck all the hot broth out. Carefully, don't burn yourself. Eat the rest of dumpling. Bask in its deliciousness. <br><br>The beef and broccoli is good, the lo mein is good, the orange chicken is great. Pretty much all of the entrees we've tried were pretty good. They serve large portions, so order a soup or appetizer and share an entree :)
+							</p>
+										
+		<div class="rateReview ufc-feedback clearfix" data-review-id="gYnDkT3l7IDj-JMXxTP7PA">
+				<p class="review-intro review-message">Was this review &hellip;?</p>
+				<ul>
+							<li class="useful ufc-stat inline-block">
+		<a href="javascript:;" rel="useful" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-useful-common-wrap button-content"><i  class="i ig-common i-ufc-useful-common"></i> 	<span class="vote-type">Useful</span>
+	<span class="count">4</span></span></a>
+	</li>
+
+							<li class="funny ufc-stat inline-block">
+		<a href="javascript:;" rel="funny" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-funny-common-wrap button-content"><i  class="i ig-common i-ufc-funny-common"></i> 	<span class="vote-type">Funny</span>
+	<span class="count">2</span></span></a>
+	</li>
+
+							<li class="cool ufc-stat inline-block">
+		<a href="javascript:;" rel="cool" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-cool-common-wrap button-content"><i  class="i ig-common i-ufc-cool-common"></i> 	<span class="vote-type">Cool</span>
+	<span class="count">4</span></span></a>
+	</li>
+
+				</ul>
+		</div>
+
+
+						</div>
+						<div class="browseReviewActions">
+
+								
+	<a data-pop-uri="/send_to_friend/review/gYnDkT3l7IDj-JMXxTP7PA" href="/biz_share?bizid=SnmnGS3sXOfE2Ky7S8Sohw&amp;return_url=%2Fbiz%2FSnmnGS3sXOfE2Ky7S8Sohw&amp;reviewid=gYnDkT3l7IDj-JMXxTP7PA" onclick="yelp.ui.widget.SendToFriends.open(this, &#34;SnmnGS3sXOfE2Ky7S8Sohw&#34;, &#34;gYnDkT3l7IDj-JMXxTP7PA&#34;, null); return false;" class="i-wrap ig-wrap-common i-orange-envelope-common-wrap sendToFriend send-to-friend"><i  class="i ig-common i-orange-envelope-common"></i> Send to a Friend</a>
+
+
+								
+	<a href="/signup" rel="teahouse-saint-paul-2" title="Something catch your eye?<br>Bookmark this business to build your own list of fun ideas to check out later!" class="i-wrap ig-wrap-common i-orange-bookmark-common-wrap bookmark"><i  class="i ig-common i-orange-bookmark-common"></i> Bookmark</a>
+
+								<a href="/biz/teahouse-saint-paul-2#hrid:gYnDkT3l7IDj-JMXxTP7PA" class="i-wrap ig-wrap-common i-orange-link-common-wrap linkToThis"><i  class="i ig-common i-orange-link-common"></i> Link to This Review</a>
+
+						</div>
+
+</div>
+</div><div class="clearfix media-block browse-reviews-row">
+<div class="media-avatar">
+												<strong  class="i-wrap ig-wrap-common i-yellow-star-common-wrap"><i  class="i ig-common i-yellow-star-common"></i> ROTD 8/1/2013</strong>
+								<div class="user-passport">
+			
+
+
+
+	<div class="photo-box pb-ms">
+			<a href="http://www.yelp.com/user_details?userid=tvrW0zMsjQgHtTlRP5gBFA">
+				<img alt="Photo of Sarah S." class="photo-box-img" height="100" src="http://s3-media4.ak.yelpcdn.com/photo/GVKP6ZIfNkFi5BW5FKJYRw/ms.jpg" width="100">
+			</a>
+	</div>
+
+			<ul class="user-stats">
+		<li class="friend-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-friends-orange-common-wrap"><i  class="i ig-common i-friends-orange-common"></i> 13 <span class="offscreen">friends</span></span>
+		</li>
+		<li class="review-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-star-orange-common-wrap new-star-icon"><i  class="i ig-common i-star-orange-common"></i> 58 <span class="offscreen">reviews</span></span>
+		</li>
+	</ul>
+
+
+			<ul class="user-passport-info ieSucks">
+					<li class="user-name">
+										<a href="http://www.yelp.com/user_details?userid=tvrW0zMsjQgHtTlRP5gBFA">Sarah S.</a>
+
+					</li>
+					<li class="user-location">Minneapolis, MN</li>
+			</ul>
+	</div>
+
+
+
+</div><div class="media-story">
+						<div class="browseReviewsReview">
+							<div class='rating-stats'>
+								<a href="/biz/midtown-global-market-minneapolis#hrid:ScYzWlltU2xkDpCxUPqNQA" class="browseReviewsBizName">Midtown Global Market</a>
+									
+		<div class="rating">
+		<i class="star-img stars_5" title="5.0 star rating">
+			<img alt="5.0 star rating" class="offscreen" height="303" src="http://s3-media3.ak.yelpcdn.com/assets/2/www/img/7d58085d03a1/ico/stars/v2/stars_map.png" width="84">
+		</i>
+	</div>
+
+
+								<em>2/28/2013</em>
+							</div>
+							<p>
+								The Midtown Global Market is one of those special places in Minneapolis that will be missed dearly if I ever relocate. My husband and I can agree on our love of food but not always on what we want to eat for a particular meal.  SOLUTION = MIDTOWN! <br><br>I always go for the Pho at Pham's Deli or the Torta at Manny's. He loves the Gyro from Holy Land or Tacos from Los Ocampo. We can always decide on an end of meal treat from Salty Tart. Luckily, the awesomeness of Midtown is only half over. We always make time to explore the stands and local food offerings from the grocery section. <br><br>Midtown is great for locals, visitors, and hungry individuals that most likely spent the last 2 hours + at the Driver and Vehicle Services downstairs. I'd be lying if I said it wasn't a strong motivator to finally getting my MN license.
+							</p>
+										
+		<div class="rateReview ufc-feedback clearfix" data-review-id="ScYzWlltU2xkDpCxUPqNQA">
+				<p class="review-intro review-message">Was this review &hellip;?</p>
+				<ul>
+							<li class="useful ufc-stat inline-block">
+		<a href="javascript:;" rel="useful" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-useful-common-wrap button-content"><i  class="i ig-common i-ufc-useful-common"></i> 	<span class="vote-type">Useful</span>
+	<span class="count">6</span></span></a>
+	</li>
+
+							<li class="funny ufc-stat inline-block">
+		<a href="javascript:;" rel="funny" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-funny-common-wrap button-content"><i  class="i ig-common i-ufc-funny-common"></i> 	<span class="vote-type">Funny</span>
+	<span class="count">4</span></span></a>
+	</li>
+
+							<li class="cool ufc-stat inline-block">
+		<a href="javascript:;" rel="cool" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-cool-common-wrap button-content"><i  class="i ig-common i-ufc-cool-common"></i> 	<span class="vote-type">Cool</span>
+	<span class="count">3</span></span></a>
+	</li>
+
+				</ul>
+		</div>
+
+
+						</div>
+						<div class="browseReviewActions">
+
+								
+	<a data-pop-uri="/send_to_friend/review/ScYzWlltU2xkDpCxUPqNQA" href="/biz_share?bizid=EEYRWPmVHafUaf4faVHaFQ&amp;return_url=%2Fbiz%2FEEYRWPmVHafUaf4faVHaFQ&amp;reviewid=ScYzWlltU2xkDpCxUPqNQA" onclick="yelp.ui.widget.SendToFriends.open(this, &#34;EEYRWPmVHafUaf4faVHaFQ&#34;, &#34;ScYzWlltU2xkDpCxUPqNQA&#34;, null); return false;" class="i-wrap ig-wrap-common i-orange-envelope-common-wrap sendToFriend send-to-friend"><i  class="i ig-common i-orange-envelope-common"></i> Send to a Friend</a>
+
+
+								
+	<a href="/signup" rel="midtown-global-market-minneapolis" title="Something catch your eye?<br>Bookmark this business to build your own list of fun ideas to check out later!" class="i-wrap ig-wrap-common i-orange-bookmark-common-wrap bookmark"><i  class="i ig-common i-orange-bookmark-common"></i> Bookmark</a>
+
+								<a href="/biz/midtown-global-market-minneapolis#hrid:ScYzWlltU2xkDpCxUPqNQA" class="i-wrap ig-wrap-common i-orange-link-common-wrap linkToThis"><i  class="i ig-common i-orange-link-common"></i> Link to This Review</a>
+
+						</div>
+
+</div>
+</div><div class="clearfix media-block browse-reviews-row">
+<div class="media-avatar">
+												<strong  class="i-wrap ig-wrap-common i-yellow-star-common-wrap"><i  class="i ig-common i-yellow-star-common"></i> ROTD 7/31/2013</strong>
+								<div class="user-passport">
+			
+
+
+
+	<div class="photo-box pb-ms">
+			<a href="http://www.yelp.com/user_details?userid=O4LGgVRfK668MA-LVmgyyA">
+				<img alt="Photo of Amir S." class="photo-box-img" height="100" src="http://s3-media1.ak.yelpcdn.com/photo/4WgDsHXPSZ7hgapcGmXyvQ/ms.jpg" width="100">
+			</a>
+	</div>
+
+			<ul class="user-stats">
+		<li class="friend-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-friends-orange-common-wrap"><i  class="i ig-common i-friends-orange-common"></i> 59 <span class="offscreen">friends</span></span>
+		</li>
+		<li class="review-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-star-orange-common-wrap new-star-icon"><i  class="i ig-common i-star-orange-common"></i> 66 <span class="offscreen">reviews</span></span>
+		</li>
+	</ul>
+
+
+			<ul class="user-passport-info ieSucks">
+					<li class="user-name">
+										<a href="http://www.yelp.com/user_details?userid=O4LGgVRfK668MA-LVmgyyA">Amir S.</a>
+
+					</li>
+					<li class="user-location">Minneapolis, MN</li>
+			</ul>
+	</div>
+
+
+
+</div><div class="media-story">
+						<div class="browseReviewsReview">
+							<div class='rating-stats'>
+								<a href="/biz/sportys-pub-and-grill-minneapolis#hrid:TctPSsvQe2t739cnz0j-qQ" class="browseReviewsBizName">Sporty&#39;s Pub &amp; Grill</a>
+									
+		<div class="rating">
+		<i class="star-img stars_4" title="4.0 star rating">
+			<img alt="4.0 star rating" class="offscreen" height="303" src="http://s3-media3.ak.yelpcdn.com/assets/2/www/img/7d58085d03a1/ico/stars/v2/stars_map.png" width="84">
+		</i>
+	</div>
+
+
+								<em>5/5/2013</em>
+							</div>
+							<p>
+								There are two different approaches when it comes to business: while some businesses add to the routine successfully tested formula that one special thing to set themselves apart from other competitors (e.g. very affordable happy hours, good live music with no cover, great line-up of craft beers, etc.), others incorporate a little of every feasible thing into their business with the hope to attract as many customers as possible. Although the latter approach, an all-inclusive model, is perfect for big businesses (e.g. shopping malls) that want to maximize customer numbers and don't care that much about their identity, it is always risky to adopt this model if you run a small business. Why? Simply because it's usually very difficult to manage all those extra features. It's instead safer if you specialize in one thing and build the identity of your business around that (the best happy hour in town, the best beer line-up in South Minneapolis, etc.).<br><br>Sptorty's has however adopted the "shopping mall" model and is strangely successful. It fits well the picture that people have in mind of an oriental bazaar: Like oriental bazaars, Sporty's is a chaotic bricolage of all things imaginable. It's also very difficult to visit Sporty's and get bored; because there is always something there to satisfy your taste. Also, like in oriental bazaars, there is this element of surprise that factors in the success of Sporty's. There is always something surprising, something unexpected, even for regulars.<br><br>As soon as you step in, your eyes catch this all-inclusive approach on walls: objects adorning  the walls are as diverse as possible: movie posters, car license plates, bull horns, old rifles, beer posters, random framed photos, specials ads, and empty beer growlers, to name a few. Then, when you decide to sit, you'll notice the same approach in different sitting options you have: bar, patio, a den-like place, semi-circle booth, the Karaoke room are some of your sitting options. After you sit, you notice the same approach in the beverage menu: Craft beer? A few! Good old regular beers? Sure! Can and bottle, local and imported beers? Yes! Wine? Choose between red, white, rose, or sparkling! Cocktails? No doubt! The same is true about food menu: Gluten free options? Check! Vegan and vegetarian? No problem! Sandwiches, burgers, appetizers, salads, chilies ? Of course! Pizzas? Yes, they have to have it, even if it's Heggies pizza. What about entertainment options? Karaoke? Two nights a week! Trivia? Come early on Thursday. Pool table? Ahan! Foosball table? Uhum! Big Buck Hunter? You betcha! Pinball? Yeap! Darts? No question! TVs? Yes! What about specials and rewards? Lunch specials, drink specials, happy hours, Koozie club rewards, what else do you expect? Free wi-fi? That too... Do they cater? Sure they do. <br><br>Whatever your standard is, as long as it can be met in a dive bar, Sporty's won't disappoint you. Are you part of a group of people with different preferences? Go to Sporty's. It has all you may want from a dive bar. The only thing is that if it's a Karaoke night, think twice before sitting in the Karaoke room... or leave as soon as people start singing Lil Jon's Get Low! Sometimes it gets very fun though...
+							</p>
+										
+		<div class="rateReview ufc-feedback clearfix" data-review-id="TctPSsvQe2t739cnz0j-qQ">
+				<p class="review-intro review-message">Was this review &hellip;?</p>
+				<ul>
+							<li class="useful ufc-stat inline-block">
+		<a href="javascript:;" rel="useful" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-useful-common-wrap button-content"><i  class="i ig-common i-ufc-useful-common"></i> 	<span class="vote-type">Useful</span>
+	<span class="count">4</span></span></a>
+	</li>
+
+							<li class="funny ufc-stat inline-block">
+		<a href="javascript:;" rel="funny" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-funny-common-wrap button-content"><i  class="i ig-common i-ufc-funny-common"></i> 	<span class="vote-type">Funny</span>
+	<span class="count">5</span></span></a>
+	</li>
+
+							<li class="cool ufc-stat inline-block">
+		<a href="javascript:;" rel="cool" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-cool-common-wrap button-content"><i  class="i ig-common i-ufc-cool-common"></i> 	<span class="vote-type">Cool</span>
+	<span class="count">2</span></span></a>
+	</li>
+
+				</ul>
+		</div>
+
+
+						</div>
+						<div class="browseReviewActions">
+
+								
+	<a data-pop-uri="/send_to_friend/review/TctPSsvQe2t739cnz0j-qQ" href="/biz_share?bizid=aaroCEp2gbE0CVk1KFhoZA&amp;return_url=%2Fbiz%2FaaroCEp2gbE0CVk1KFhoZA&amp;reviewid=TctPSsvQe2t739cnz0j-qQ" onclick="yelp.ui.widget.SendToFriends.open(this, &#34;aaroCEp2gbE0CVk1KFhoZA&#34;, &#34;TctPSsvQe2t739cnz0j-qQ&#34;, null); return false;" class="i-wrap ig-wrap-common i-orange-envelope-common-wrap sendToFriend send-to-friend"><i  class="i ig-common i-orange-envelope-common"></i> Send to a Friend</a>
+
+
+								
+	<a href="/signup" rel="sportys-pub-and-grill-minneapolis" title="Something catch your eye?<br>Bookmark this business to build your own list of fun ideas to check out later!" class="i-wrap ig-wrap-common i-orange-bookmark-common-wrap bookmark"><i  class="i ig-common i-orange-bookmark-common"></i> Bookmark</a>
+
+								<a href="/biz/sportys-pub-and-grill-minneapolis#hrid:TctPSsvQe2t739cnz0j-qQ" class="i-wrap ig-wrap-common i-orange-link-common-wrap linkToThis"><i  class="i ig-common i-orange-link-common"></i> Link to This Review</a>
+
+						</div>
+
+</div>
+</div><div class="clearfix media-block browse-reviews-row">
+<div class="media-avatar">
+												<strong  class="i-wrap ig-wrap-common i-yellow-star-common-wrap"><i  class="i ig-common i-yellow-star-common"></i> ROTD 7/30/2013</strong>
+								<div class="user-passport">
+			
+
+
+
+	<div class="photo-box pb-ms">
+			<a href="http://www.yelp.com/user_details?userid=gCWWdBnMag6HoIP1HjWQSg">
+				<img alt="Photo of Ashley A." class="photo-box-img" height="100" src="http://s3-media2.ak.yelpcdn.com/photo/BXJrh3G1P3V6r6oNU9XZkQ/ms.jpg" width="100">
+			</a>
+	</div>
+
+			<ul class="user-stats">
+		<li class="friend-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-friends-orange-common-wrap"><i  class="i ig-common i-friends-orange-common"></i> 21 <span class="offscreen">friends</span></span>
+		</li>
+		<li class="review-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-star-orange-common-wrap new-star-icon"><i  class="i ig-common i-star-orange-common"></i> 77 <span class="offscreen">reviews</span></span>
+		</li>
+	</ul>
+
+
+			<ul class="user-passport-info ieSucks">
+					<li class="user-name">
+										<a href="http://www.yelp.com/user_details?userid=gCWWdBnMag6HoIP1HjWQSg">Ashley A.</a>
+
+					</li>
+					<li class="user-location">Minneapolis, MN</li>
+			</ul>
+	</div>
+
+
+
+</div><div class="media-story">
+						<div class="browseReviewsReview">
+							<div class='rating-stats'>
+								<a href="/biz/galactic-pizza-minneapolis#hrid:cnWeBHDwVlvNdT6H-8iFAA" class="browseReviewsBizName">Galactic Pizza</a>
+									
+		<div class="rating">
+		<i class="star-img stars_4" title="4.0 star rating">
+			<img alt="4.0 star rating" class="offscreen" height="303" src="http://s3-media3.ak.yelpcdn.com/assets/2/www/img/7d58085d03a1/ico/stars/v2/stars_map.png" width="84">
+		</i>
+	</div>
+
+
+								<em>5/27/2013</em>
+							</div>
+							<p>
+								Alright. How had I not been here yet. I think it's because I heard of them and their capes and makeshift cars and while amused by their playfulness, it didn't drive me enough to call or go in. I recently learned that they're for real. And it's REAL good pizza. Probably one of my favorites now.<br><br>We went in and I felt welcomed. Just like their delivery stories that I've heard, the restaurant is pleasant and friendly (although, again: I've not experienced the delivery...just hearsay..and I believe it). And their staff are super helpful and offer that quiet kind of helpful. <br><br>In the mood for pizza-pizza, we stuck to the Old School and it delivered. I like their crust and sauce a lot, which for me is also the foundation for a good pizza. Their toppings also seemed much more fresh than other pizza spots in the area.<br><br>We were there kinda early on a rainy Friday, so I'm not sure how packed their smaller sized restaurant gets, but it'd be worth it to always check first.
+							</p>
+										
+		<div class="rateReview ufc-feedback clearfix" data-review-id="cnWeBHDwVlvNdT6H-8iFAA">
+				<p class="review-intro review-message">Was this review &hellip;?</p>
+				<ul>
+							<li class="useful ufc-stat inline-block">
+		<a href="javascript:;" rel="useful" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-useful-common-wrap button-content"><i  class="i ig-common i-ufc-useful-common"></i> 	<span class="vote-type">Useful</span>
+	<span class="count">4</span></span></a>
+	</li>
+
+							<li class="funny ufc-stat inline-block">
+		<a href="javascript:;" rel="funny" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-funny-common-wrap button-content"><i  class="i ig-common i-ufc-funny-common"></i> 	<span class="vote-type">Funny</span>
+	<span class="count">2</span></span></a>
+	</li>
+
+							<li class="cool ufc-stat inline-block">
+		<a href="javascript:;" rel="cool" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-cool-common-wrap button-content"><i  class="i ig-common i-ufc-cool-common"></i> 	<span class="vote-type">Cool</span>
+	<span class="count">2</span></span></a>
+	</li>
+
+				</ul>
+		</div>
+
+
+						</div>
+						<div class="browseReviewActions">
+
+								
+	<a data-pop-uri="/send_to_friend/review/cnWeBHDwVlvNdT6H-8iFAA" href="/biz_share?bizid=dBRIlzRYdvAhSdxOTBVYyw&amp;return_url=%2Fbiz%2FdBRIlzRYdvAhSdxOTBVYyw&amp;reviewid=cnWeBHDwVlvNdT6H-8iFAA" onclick="yelp.ui.widget.SendToFriends.open(this, &#34;dBRIlzRYdvAhSdxOTBVYyw&#34;, &#34;cnWeBHDwVlvNdT6H-8iFAA&#34;, null); return false;" class="i-wrap ig-wrap-common i-orange-envelope-common-wrap sendToFriend send-to-friend"><i  class="i ig-common i-orange-envelope-common"></i> Send to a Friend</a>
+
+
+								
+	<a href="/signup" rel="galactic-pizza-minneapolis" title="Something catch your eye?<br>Bookmark this business to build your own list of fun ideas to check out later!" class="i-wrap ig-wrap-common i-orange-bookmark-common-wrap bookmark"><i  class="i ig-common i-orange-bookmark-common"></i> Bookmark</a>
+
+								<a href="/biz/galactic-pizza-minneapolis#hrid:cnWeBHDwVlvNdT6H-8iFAA" class="i-wrap ig-wrap-common i-orange-link-common-wrap linkToThis"><i  class="i ig-common i-orange-link-common"></i> Link to This Review</a>
+
+						</div>
+
+</div>
+</div><div class="clearfix media-block browse-reviews-row">
+<div class="media-avatar">
+												<strong  class="i-wrap ig-wrap-common i-yellow-star-common-wrap"><i  class="i ig-common i-yellow-star-common"></i> ROTD 7/29/2013</strong>
+								<div class="user-passport">
+			
+
+
+
+	<div class="photo-box pb-ms">
+			<a href="http://www.yelp.com/user_details?userid=eCJ_LYrv1HJENQwczRRboA">
+				<img alt="Photo of Andrew H." class="photo-box-img" height="100" src="http://s3-media2.ak.yelpcdn.com/photo/6T_tUWC59slO9s-9UpRqzQ/ms.jpg" width="100">
+			</a>
+	</div>
+
+			<ul class="user-stats">
+		<li class="friend-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-friends-orange-common-wrap"><i  class="i ig-common i-friends-orange-common"></i> 6 <span class="offscreen">friends</span></span>
+		</li>
+		<li class="review-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-star-orange-common-wrap new-star-icon"><i  class="i ig-common i-star-orange-common"></i> 36 <span class="offscreen">reviews</span></span>
+		</li>
+	</ul>
+
+
+			<ul class="user-passport-info ieSucks">
+					<li class="user-name">
+										<a href="http://www.yelp.com/user_details?userid=eCJ_LYrv1HJENQwczRRboA">Andrew H.</a>
+
+					</li>
+					<li class="user-location">Osseo, MN</li>
+			</ul>
+	</div>
+
+
+
+</div><div class="media-story">
+						<div class="browseReviewsReview">
+							<div class='rating-stats'>
+								<a href="/biz/bona-brothers-automotive-services-fridley#hrid:mbWr1m03NUo2Uhvs0FPg6g" class="browseReviewsBizName">Bona Brothers Automotive Services</a>
+									
+		<div class="rating">
+		<i class="star-img stars_5" title="5.0 star rating">
+			<img alt="5.0 star rating" class="offscreen" height="303" src="http://s3-media3.ak.yelpcdn.com/assets/2/www/img/7d58085d03a1/ico/stars/v2/stars_map.png" width="84">
+		</i>
+	</div>
+
+
+								<em>2/8/2013</em>
+							</div>
+							<p>
+								A local GMC dealership issued me a $1400 quote (ouch) for the radiator to be replaced in my Envoy. Profoundly disgusted with dealership service departments, I decided to shop around with the hope of finding an honest local automotive service company. Bona Brothers comes highly recommended by my fellow yelpers, and I've heard some positive word of mouth over the years. I called in late one evening and was promptly given a quote by Matthew for HALF what the dealership quoted me! While I was impressed, I thought it may be too good to be true and continued my search.  A week later, I decided to check back in with Bona Brothers, and was given the exact same quote by Jeff. He politely told me he'd appreciate the opportunity to earn my business, so I decided to take him up on that offer.<br><br>I dropped my car off at roughly noon on a Friday and was given a loaner car to use (at my request) free of charge. Jeff told me they should have the work completed later that day - which surprised me.  Since this is the second time I've replaced a radiator in this vehicle, I thought it nearly impossible that I'd see my vehicle before Monday. Especially since the GMC dealership took nearly a day to simply diagnose the problem! I was proven wrong by Bona Brothers, and had my car back roughly seven hours after dropping it off. The radiator had been replaced and tested for quality; my vehicle was washed, and had the same amount of fuel and miles as when I left it.<br><br>Bona Brothers did exactly what I asked them to do at exactly the price they quoted me. They did not try to upsell me, overcharge, extra-charge, or additional charge me for anything. Actually, the final bill came to two dollars and thirty cents less than what I was quoted by both Matthew and Jeff. The labor rate was lower than standard dealership pricing and the parts used are the same aftermarket brands used by any major service provider. For whatever reason, Bona Brothers is able to deliver quality service on an entirely different level. If your vehicle is in need of repair (major or minor) that you'll be paying "out of pocket" for, I cannot think of any reason why you wouldn't have these nice folks take care of it for you. You'll also be keeping your business local, and that's always a great thing. I am downright impressed with the level of service Bona Brothers provided, and they have certainly earned my repeat business.
+							</p>
+										
+		<div class="rateReview ufc-feedback clearfix" data-review-id="mbWr1m03NUo2Uhvs0FPg6g">
+				<p class="review-intro review-message">Was this review &hellip;?</p>
+				<ul>
+							<li class="useful ufc-stat inline-block">
+		<a href="javascript:;" rel="useful" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-useful-common-wrap button-content"><i  class="i ig-common i-ufc-useful-common"></i> 	<span class="vote-type">Useful</span>
+	<span class="count">13</span></span></a>
+	</li>
+
+							<li class="funny ufc-stat inline-block">
+		<a href="javascript:;" rel="funny" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-funny-common-wrap button-content"><i  class="i ig-common i-ufc-funny-common"></i> 	<span class="vote-type">Funny</span>
+	<span class="count">6</span></span></a>
+	</li>
+
+							<li class="cool ufc-stat inline-block">
+		<a href="javascript:;" rel="cool" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-cool-common-wrap button-content"><i  class="i ig-common i-ufc-cool-common"></i> 	<span class="vote-type">Cool</span>
+	<span class="count">5</span></span></a>
+	</li>
+
+				</ul>
+		</div>
+
+
+						</div>
+						<div class="browseReviewActions">
+
+								
+	<a data-pop-uri="/send_to_friend/review/mbWr1m03NUo2Uhvs0FPg6g" href="/biz_share?bizid=kfj20lhjCX55Z-YgMCNhVA&amp;return_url=%2Fbiz%2Fkfj20lhjCX55Z-YgMCNhVA&amp;reviewid=mbWr1m03NUo2Uhvs0FPg6g" onclick="yelp.ui.widget.SendToFriends.open(this, &#34;kfj20lhjCX55Z-YgMCNhVA&#34;, &#34;mbWr1m03NUo2Uhvs0FPg6g&#34;, null); return false;" class="i-wrap ig-wrap-common i-orange-envelope-common-wrap sendToFriend send-to-friend"><i  class="i ig-common i-orange-envelope-common"></i> Send to a Friend</a>
+
+
+								
+	<a href="/signup" rel="bona-brothers-automotive-services-fridley" title="Something catch your eye?<br>Bookmark this business to build your own list of fun ideas to check out later!" class="i-wrap ig-wrap-common i-orange-bookmark-common-wrap bookmark"><i  class="i ig-common i-orange-bookmark-common"></i> Bookmark</a>
+
+								<a href="/biz/bona-brothers-automotive-services-fridley#hrid:mbWr1m03NUo2Uhvs0FPg6g" class="i-wrap ig-wrap-common i-orange-link-common-wrap linkToThis"><i  class="i ig-common i-orange-link-common"></i> Link to This Review</a>
+
+						</div>
+
+</div>
+</div><div class="clearfix media-block browse-reviews-row">
+<div class="media-avatar">
+												<strong  class="i-wrap ig-wrap-common i-yellow-star-common-wrap"><i  class="i ig-common i-yellow-star-common"></i> ROTD 7/28/2013</strong>
+								<div class="user-passport">
+			
+
+
+
+	<div class="photo-box pb-ms">
+			<a href="http://www.yelp.com/user_details?userid=lcr5Nx2Y-sUr3rqdj_1_7g">
+				<img alt="Photo of Joelle P." class="photo-box-img" height="100" src="http://s3-media3.ak.yelpcdn.com/photo/sH7MtXe1r9QaixO0VS-CVA/ms.jpg" width="100">
+			</a>
+	</div>
+
+			<ul class="user-stats">
+		<li class="friend-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-friends-orange-common-wrap"><i  class="i ig-common i-friends-orange-common"></i> 38 <span class="offscreen">friends</span></span>
+		</li>
+		<li class="review-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-star-orange-common-wrap new-star-icon"><i  class="i ig-common i-star-orange-common"></i> 105 <span class="offscreen">reviews</span></span>
+		</li>
+	</ul>
+
+
+			<ul class="user-passport-info ieSucks">
+					<li class="user-name">
+										<a href="http://www.yelp.com/user_details?userid=lcr5Nx2Y-sUr3rqdj_1_7g">Joelle P.</a>
+
+					</li>
+					<li class="user-location">Minneapolis, MN</li>
+			</ul>
+	</div>
+
+
+
+</div><div class="media-story">
+						<div class="browseReviewsReview">
+							<div class='rating-stats'>
+								<a href="/biz/szechuan-spice-minneapolis#hrid:B7bxiWW1Nt2q5pt18e9eeA" class="browseReviewsBizName">Szechuan Spice</a>
+									
+		<div class="rating">
+		<i class="star-img stars_4" title="4.0 star rating">
+			<img alt="4.0 star rating" class="offscreen" height="303" src="http://s3-media3.ak.yelpcdn.com/assets/2/www/img/7d58085d03a1/ico/stars/v2/stars_map.png" width="84">
+		</i>
+	</div>
+
+
+								<em>2/16/2013</em>
+							</div>
+							<p>
+								I'm not even ashamed to say that I've ordered delivery from Szechuan Spice twice in the last 4 days. What can I say, it's been cold, I've been lazy, and you just can't beat delivery for $1. Plus, their prices aren't bad for the portions they give you at all. Seriously, share with someone, or don't. Either way, you'll get full.<br><br>As far as the food goes -  yeah it isn't really the most authentic or awesome, but I would say it is decent. The meat is pretty good, not at all chewy like some other places that deliver. They have some pretty solid dishes. The Mongolian beef is pretty damn good actually. The Chicken with double chili pepper was also tasty and had a nice spice to it. The dumplings are good, I definitely suggest trying any of them! <br><br>I have yet to eat at the actual restaurant...so I can't attest to the service or atmosphere there, but I can tell you that their phone ordering service is the very best I've ever experienced. They are very patient and speak clearly and slowly. They repeat your whole order as to make sure nothing gets mixed up and I really appreciate that. The delivery doesn't take long at all and the man that delivered our food was really nice. Really, anyone who drives my food to me out in the freezing cold so that I do not have to leave my apartment is truly very nice in my eyes. <br><br>Szechuan Spice is officially my new go-to for Chinese delivery. I'm diggin' the $1 fee AND the food!
+							</p>
+										
+		<div class="rateReview ufc-feedback clearfix" data-review-id="B7bxiWW1Nt2q5pt18e9eeA">
+				<p class="review-intro review-message">Was this review &hellip;?</p>
+				<ul>
+							<li class="useful ufc-stat inline-block">
+		<a href="javascript:;" rel="useful" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-useful-common-wrap button-content"><i  class="i ig-common i-ufc-useful-common"></i> 	<span class="vote-type">Useful</span>
+	<span class="count">7</span></span></a>
+	</li>
+
+							<li class="funny ufc-stat inline-block">
+		<a href="javascript:;" rel="funny" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-funny-common-wrap button-content"><i  class="i ig-common i-ufc-funny-common"></i> 	<span class="vote-type">Funny</span>
+	<span class="count">1</span></span></a>
+	</li>
+
+							<li class="cool ufc-stat inline-block">
+		<a href="javascript:;" rel="cool" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-cool-common-wrap button-content"><i  class="i ig-common i-ufc-cool-common"></i> 	<span class="vote-type">Cool</span>
+	<span class="count">4</span></span></a>
+	</li>
+
+				</ul>
+		</div>
+
+
+						</div>
+						<div class="browseReviewActions">
+
+								
+	<a data-pop-uri="/send_to_friend/review/B7bxiWW1Nt2q5pt18e9eeA" href="/biz_share?bizid=FlF0_Ied8DmcHVGfX9kBmQ&amp;return_url=%2Fbiz%2FFlF0_Ied8DmcHVGfX9kBmQ&amp;reviewid=B7bxiWW1Nt2q5pt18e9eeA" onclick="yelp.ui.widget.SendToFriends.open(this, &#34;FlF0_Ied8DmcHVGfX9kBmQ&#34;, &#34;B7bxiWW1Nt2q5pt18e9eeA&#34;, null); return false;" class="i-wrap ig-wrap-common i-orange-envelope-common-wrap sendToFriend send-to-friend"><i  class="i ig-common i-orange-envelope-common"></i> Send to a Friend</a>
+
+
+								
+	<a href="/signup" rel="szechuan-spice-minneapolis" title="Something catch your eye?<br>Bookmark this business to build your own list of fun ideas to check out later!" class="i-wrap ig-wrap-common i-orange-bookmark-common-wrap bookmark"><i  class="i ig-common i-orange-bookmark-common"></i> Bookmark</a>
+
+								<a href="/biz/szechuan-spice-minneapolis#hrid:B7bxiWW1Nt2q5pt18e9eeA" class="i-wrap ig-wrap-common i-orange-link-common-wrap linkToThis"><i  class="i ig-common i-orange-link-common"></i> Link to This Review</a>
+
+						</div>
+
+</div>
+</div><div class="clearfix media-block browse-reviews-row">
+<div class="media-avatar">
+												<strong  class="i-wrap ig-wrap-common i-yellow-star-common-wrap"><i  class="i ig-common i-yellow-star-common"></i> ROTD 7/27/2013</strong>
+								<div class="user-passport">
+			
+
+
+
+	<div class="photo-box pb-ms">
+			<a href="http://www.yelp.com/user_details?userid=ps0OjZTH9vdo-aDE8-EhWQ">
+				<img alt="Photo of Michael A." class="photo-box-img" height="100" src="http://s3-media4.ak.yelpcdn.com/photo/l1djlmCswN0AyP8Lj47OMA/ms.jpg" width="100">
+			</a>
+	</div>
+
+			<ul class="user-stats">
+		<li class="friend-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-friends-orange-common-wrap"><i  class="i ig-common i-friends-orange-common"></i> 38 <span class="offscreen">friends</span></span>
+		</li>
+		<li class="review-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-star-orange-common-wrap new-star-icon"><i  class="i ig-common i-star-orange-common"></i> 68 <span class="offscreen">reviews</span></span>
+		</li>
+	</ul>
+
+
+			<ul class="user-passport-info ieSucks">
+					<li class="user-name">
+										<a href="http://www.yelp.com/user_details?userid=ps0OjZTH9vdo-aDE8-EhWQ">Michael A.</a>
+
+					</li>
+					<li class="user-location">Minneapolis, MN</li>
+			</ul>
+	</div>
+
+
+
+</div><div class="media-story">
+						<div class="browseReviewsReview">
+							<div class='rating-stats'>
+								<a href="/biz/the-anchor-fish-and-chips-minneapolis#hrid:adH64tW3YLemvWr_XEAACQ" class="browseReviewsBizName">The Anchor Fish &amp; Chips</a>
+									
+		<div class="rating">
+		<i class="star-img stars_5" title="5.0 star rating">
+			<img alt="5.0 star rating" class="offscreen" height="303" src="http://s3-media3.ak.yelpcdn.com/assets/2/www/img/7d58085d03a1/ico/stars/v2/stars_map.png" width="84">
+		</i>
+	</div>
+
+
+								<em>3/31/2013</em>
+							</div>
+							<p>
+								Hands down the best fish &amp; chips  in town!<br><br>The fish is wild Alaskan cod that's moist and covered in a golden-brown, almost crispy batter coating. Chips are hand cut with a solid crisp on the outside, with a bit soggy on the inside, just the way I like them! You have to order tarter sauce on the side, but it's worth it. And if you're feeling lucky, add on a side of the curry. It's sweet and tangy - a great alternative to ketchup. <br><br>If you're not a fish &amp; chips fan, they've got a killer shepherd's pie or toasty (think grilled cheese with ham, tomato and onion). Prices are reasonable - fish &amp; chips is $9.25 and $5 tap beers. <br><br>The atmosphere feels like a local pub. "Close to everyone" seating, but an open kitchen that's fun to watch your order get made. There is a small parking lot in the back and plenty of street parking. <br><br>A few things to consider:<br>- It gets busy here so come early (6-7pm) on the weekends or plan for a good 45-hour wait, but promise it's worth it. Get your name on the waiting list as soon you as arrive!<br>- While you wait, grab a beer near the front window. Someone will always help pour a drink!<br>- This is NOT a location for larger groups, stick to small crowds of 2-4 people<br>- For the best service, ask for a spot facing the kitchen as the bar. If you're lucky, you'll get served by owners Jenny, Kathryn or Luke!
+							</p>
+										
+		<div class="rateReview ufc-feedback clearfix" data-review-id="adH64tW3YLemvWr_XEAACQ">
+				<p class="review-intro review-message">Was this review &hellip;?</p>
+				<ul>
+							<li class="useful ufc-stat inline-block">
+		<a href="javascript:;" rel="useful" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-useful-common-wrap button-content"><i  class="i ig-common i-ufc-useful-common"></i> 	<span class="vote-type">Useful</span>
+	<span class="count">4</span></span></a>
+	</li>
+
+							<li class="funny ufc-stat inline-block">
+		<a href="javascript:;" rel="funny" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-funny-common-wrap button-content"><i  class="i ig-common i-ufc-funny-common"></i> 	<span class="vote-type">Funny</span>
+	<span class="count">2</span></span></a>
+	</li>
+
+							<li class="cool ufc-stat inline-block">
+		<a href="javascript:;" rel="cool" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-cool-common-wrap button-content"><i  class="i ig-common i-ufc-cool-common"></i> 	<span class="vote-type">Cool</span>
+	<span class="count">3</span></span></a>
+	</li>
+
+				</ul>
+		</div>
+
+
+						</div>
+						<div class="browseReviewActions">
+
+								
+	<a data-pop-uri="/send_to_friend/review/adH64tW3YLemvWr_XEAACQ" href="/biz_share?bizid=Cwya4QAu8R2ylFFQn9PJhw&amp;return_url=%2Fbiz%2FCwya4QAu8R2ylFFQn9PJhw&amp;reviewid=adH64tW3YLemvWr_XEAACQ" onclick="yelp.ui.widget.SendToFriends.open(this, &#34;Cwya4QAu8R2ylFFQn9PJhw&#34;, &#34;adH64tW3YLemvWr_XEAACQ&#34;, null); return false;" class="i-wrap ig-wrap-common i-orange-envelope-common-wrap sendToFriend send-to-friend"><i  class="i ig-common i-orange-envelope-common"></i> Send to a Friend</a>
+
+
+								
+	<a href="/signup" rel="the-anchor-fish-and-chips-minneapolis" title="Something catch your eye?<br>Bookmark this business to build your own list of fun ideas to check out later!" class="i-wrap ig-wrap-common i-orange-bookmark-common-wrap bookmark"><i  class="i ig-common i-orange-bookmark-common"></i> Bookmark</a>
+
+								<a href="/biz/the-anchor-fish-and-chips-minneapolis#hrid:adH64tW3YLemvWr_XEAACQ" class="i-wrap ig-wrap-common i-orange-link-common-wrap linkToThis"><i  class="i ig-common i-orange-link-common"></i> Link to This Review</a>
+
+						</div>
+
+</div>
+</div><div class="clearfix media-block browse-reviews-row">
+<div class="media-avatar">
+												<strong  class="i-wrap ig-wrap-common i-yellow-star-common-wrap"><i  class="i ig-common i-yellow-star-common"></i> ROTD 7/26/2013</strong>
+								<div class="user-passport">
+			
+
+
+
+	<div class="photo-box pb-ms">
+			<a href="http://www.yelp.com/user_details?userid=c7QaDHosz0DiYhha5JknFw">
+				<img alt="Photo of Randy K." class="photo-box-img" height="100" src="http://s3-media4.ak.yelpcdn.com/photo/yIcQTVatHsofTU7kicA9fg/ms.jpg" width="100">
+			</a>
+	</div>
+
+			<ul class="user-stats">
+		<li class="friend-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-friends-orange-common-wrap"><i  class="i ig-common i-friends-orange-common"></i> 63 <span class="offscreen">friends</span></span>
+		</li>
+		<li class="review-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-star-orange-common-wrap new-star-icon"><i  class="i ig-common i-star-orange-common"></i> 55 <span class="offscreen">reviews</span></span>
+		</li>
+	</ul>
+
+
+			<ul class="user-passport-info ieSucks">
+					<li class="user-name">
+										<a href="http://www.yelp.com/user_details?userid=c7QaDHosz0DiYhha5JknFw">Randy K.</a>
+
+					</li>
+					<li class="user-location">Minneapolis, MN</li>
+			</ul>
+	</div>
+
+
+
+</div><div class="media-story">
+						<div class="browseReviewsReview">
+							<div class='rating-stats'>
+								<a href="/biz/butter-bakery-caf%C3%A9-minneapolis-2#hrid:nMLncZLwURvuftUidsxyyQ" class="browseReviewsBizName">Butter Bakery Café</a>
+									
+		<div class="rating">
+		<i class="star-img stars_4" title="4.0 star rating">
+			<img alt="4.0 star rating" class="offscreen" height="303" src="http://s3-media3.ak.yelpcdn.com/assets/2/www/img/7d58085d03a1/ico/stars/v2/stars_map.png" width="84">
+		</i>
+	</div>
+
+
+								<em>5/3/2013</em>
+							</div>
+							<p>
+								Trying to kill some time in Uptown before meeting with friends, my ever trustworthy Yelp app directed me to the closest sugar rush available: Butter Bakery. I always love/hate myself when I find a new place, and realize my life has been lacking. <br><br>My time at Butter was short, but totally worth it. I right away noticed the atmosphere - clean design, bright colors, tons of natural light. It was during a weekday, and filled with lots of working/studying types. Seems like it would be a great mobile office.<br><br>I have to mention, I hate that when I walked in I was the one who had to say "hello" and start the conversation with the pretentious seeming staff member. Has friendly customer service died? He was helpful, however, when I asked for a recommendation on bakery items. Perhaps sweets, not conversation, is his thing.<br><br>I took the recommendation for the Carrot Cake cookie sandwich. Think: oatmeal cream pie, but for grown-ups. It was honestly delicious and bookmarked as a favorite. I think I'll come back to try the food, but I'd keep this as a casual/quick spot to grab a coffee and pastry. PS - use your Yelp app to unlock a deal here for a free coffee!
+							</p>
+										
+		<div class="rateReview ufc-feedback clearfix" data-review-id="nMLncZLwURvuftUidsxyyQ">
+				<p class="review-intro review-message">Was this review &hellip;?</p>
+				<ul>
+							<li class="useful ufc-stat inline-block">
+		<a href="javascript:;" rel="useful" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-useful-common-wrap button-content"><i  class="i ig-common i-ufc-useful-common"></i> 	<span class="vote-type">Useful</span>
+	<span class="count">3</span></span></a>
+	</li>
+
+							<li class="funny ufc-stat inline-block">
+		<a href="javascript:;" rel="funny" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-funny-common-wrap button-content"><i  class="i ig-common i-ufc-funny-common"></i> 	<span class="vote-type">Funny</span>
+	<span class="count"></span></span></a>
+	</li>
+
+							<li class="cool ufc-stat inline-block">
+		<a href="javascript:;" rel="cool" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-cool-common-wrap button-content"><i  class="i ig-common i-ufc-cool-common"></i> 	<span class="vote-type">Cool</span>
+	<span class="count">2</span></span></a>
+	</li>
+
+				</ul>
+		</div>
+
+
+						</div>
+						<div class="browseReviewActions">
+
+								
+	<a data-pop-uri="/send_to_friend/review/nMLncZLwURvuftUidsxyyQ" href="/biz_share?bizid=kbYjplzxRNfTZ8X4Wx54cA&amp;return_url=%2Fbiz%2FkbYjplzxRNfTZ8X4Wx54cA&amp;reviewid=nMLncZLwURvuftUidsxyyQ" onclick="yelp.ui.widget.SendToFriends.open(this, &#34;kbYjplzxRNfTZ8X4Wx54cA&#34;, &#34;nMLncZLwURvuftUidsxyyQ&#34;, null); return false;" class="i-wrap ig-wrap-common i-orange-envelope-common-wrap sendToFriend send-to-friend"><i  class="i ig-common i-orange-envelope-common"></i> Send to a Friend</a>
+
+
+								
+	<a href="/signup" rel="butter-bakery-café-minneapolis-2" title="Something catch your eye?<br>Bookmark this business to build your own list of fun ideas to check out later!" class="i-wrap ig-wrap-common i-orange-bookmark-common-wrap bookmark"><i  class="i ig-common i-orange-bookmark-common"></i> Bookmark</a>
+
+								<a href="/biz/butter-bakery-caf%C3%A9-minneapolis-2#hrid:nMLncZLwURvuftUidsxyyQ" class="i-wrap ig-wrap-common i-orange-link-common-wrap linkToThis"><i  class="i ig-common i-orange-link-common"></i> Link to This Review</a>
+
+						</div>
+
+</div>
+</div><div class="clearfix media-block browse-reviews-row">
+<div class="media-avatar">
+												<strong  class="i-wrap ig-wrap-common i-yellow-star-common-wrap"><i  class="i ig-common i-yellow-star-common"></i> ROTD 7/25/2013</strong>
+								<div class="user-passport">
+			
+
+
+
+	<div class="photo-box pb-ms">
+			<a href="http://www.yelp.com/user_details?userid=H34WqzsgbTnYH9wsI5JbTA">
+				<img alt="Photo of Jonathan E." class="photo-box-img" height="100" src="http://s3-media4.ak.yelpcdn.com/photo/qi1y-O3pffqLr0Y-8x4c7Q/ms.jpg" width="100">
+			</a>
+	</div>
+
+			<ul class="user-stats">
+		<li class="friend-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-friends-orange-common-wrap"><i  class="i ig-common i-friends-orange-common"></i> 50 <span class="offscreen">friends</span></span>
+		</li>
+		<li class="review-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-star-orange-common-wrap new-star-icon"><i  class="i ig-common i-star-orange-common"></i> 184 <span class="offscreen">reviews</span></span>
+		</li>
+	</ul>
+
+
+			<ul class="user-passport-info ieSucks">
+					<li class="user-name">
+										<a href="http://www.yelp.com/user_details?userid=H34WqzsgbTnYH9wsI5JbTA">Jonathan E.</a>
+
+					</li>
+					<li class="user-location">Minneapolis, MN</li>
+			</ul>
+	</div>
+
+
+
+</div><div class="media-story">
+						<div class="browseReviewsReview">
+							<div class='rating-stats'>
+								<a href="/biz/chez-arnaud-french-bakery-st-paul#hrid:iLh5qwJQKodW6FIVOmZovA" class="browseReviewsBizName">Chez Arnaud French Bakery</a>
+									
+		<div class="rating">
+		<i class="star-img stars_4" title="4.0 star rating">
+			<img alt="4.0 star rating" class="offscreen" height="303" src="http://s3-media3.ak.yelpcdn.com/assets/2/www/img/7d58085d03a1/ico/stars/v2/stars_map.png" width="84">
+		</i>
+	</div>
+
+
+								<em>5/20/2013</em>
+							</div>
+							<p>
+								Located on Grand Avenue in St. Paul, Chez Arnoud adds another unique element to an excellent shopping and dining area. This French patisserie, while somewhat high priced, offers excellent baked goods, pastries, and sandwiches in a less pretentious atmosphere than one might expect.<br><br>The location is excellent... On Grand Avenue near its intersection with Lexington. It's easy to access and easy to find (it also has entrances in the front and back). The only negative point is that, if the parking area behind the shop is full, then youll need to find street parking--something that can be an issue in this area on busy weekends and/or evenings. Another point that Id like to make here is that they open at 7am and offer free wifi--seems like it would be a nice spot for morning tea or coffee, or perhaps even a study hangout.<br><br>The menu is small, but it doesnt need to be large. The quality of everything Ive tasted was very high, particularly the breads. I highly recommend one of their sandwiches--they are much larger than youd think and worth the $5-7. They also have quiches and soups on the menu, but I have yet to try these. The pastries are exquisite, as youd expect. However, I will say that most of the things in the pastry case are fairly expensive. My small, berry tart was $5.95.<br><br>The decor is very nice as well... It has a very clean/modern European feel, and has plenty of light entering the front and back windows. They have table seating, as well as couches, and a long bar-style table. My only complaint is that the AC was blasting when I was there. Even though it was 85 outside, I was freezing inside.<br><br>Overall, Id definitely visit Chez Arnoud again, and perhaps check out their other two locations (White Bear Lake, Maple Grove). I envision this being a great place to hang out with a cup of tea and pastry while working away on the laptop.<br><br>Pros: location, quality, the BREAD, interior design, free wifi, opens at 7am, pastries<br><br>Cons: Expensive pastries, cold inside (wear a sweater in there), limited menu, parking could be problematic during peak times
+							</p>
+										
+		<div class="rateReview ufc-feedback clearfix" data-review-id="iLh5qwJQKodW6FIVOmZovA">
+				<p class="review-intro review-message">Was this review &hellip;?</p>
+				<ul>
+							<li class="useful ufc-stat inline-block">
+		<a href="javascript:;" rel="useful" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-useful-common-wrap button-content"><i  class="i ig-common i-ufc-useful-common"></i> 	<span class="vote-type">Useful</span>
+	<span class="count">6</span></span></a>
+	</li>
+
+							<li class="funny ufc-stat inline-block">
+		<a href="javascript:;" rel="funny" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-funny-common-wrap button-content"><i  class="i ig-common i-ufc-funny-common"></i> 	<span class="vote-type">Funny</span>
+	<span class="count">2</span></span></a>
+	</li>
+
+							<li class="cool ufc-stat inline-block">
+		<a href="javascript:;" rel="cool" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-cool-common-wrap button-content"><i  class="i ig-common i-ufc-cool-common"></i> 	<span class="vote-type">Cool</span>
+	<span class="count">2</span></span></a>
+	</li>
+
+				</ul>
+		</div>
+
+
+						</div>
+						<div class="browseReviewActions">
+
+								
+	<a data-pop-uri="/send_to_friend/review/iLh5qwJQKodW6FIVOmZovA" href="/biz_share?bizid=-ylu2s9RMqsEB8-jaTp9_g&amp;return_url=%2Fbiz%2F-ylu2s9RMqsEB8-jaTp9_g&amp;reviewid=iLh5qwJQKodW6FIVOmZovA" onclick="yelp.ui.widget.SendToFriends.open(this, &#34;-ylu2s9RMqsEB8-jaTp9_g&#34;, &#34;iLh5qwJQKodW6FIVOmZovA&#34;, null); return false;" class="i-wrap ig-wrap-common i-orange-envelope-common-wrap sendToFriend send-to-friend"><i  class="i ig-common i-orange-envelope-common"></i> Send to a Friend</a>
+
+
+								
+	<a href="/signup" rel="chez-arnaud-french-bakery-st-paul" title="Something catch your eye?<br>Bookmark this business to build your own list of fun ideas to check out later!" class="i-wrap ig-wrap-common i-orange-bookmark-common-wrap bookmark"><i  class="i ig-common i-orange-bookmark-common"></i> Bookmark</a>
+
+								<a href="/biz/chez-arnaud-french-bakery-st-paul#hrid:iLh5qwJQKodW6FIVOmZovA" class="i-wrap ig-wrap-common i-orange-link-common-wrap linkToThis"><i  class="i ig-common i-orange-link-common"></i> Link to This Review</a>
+
+						</div>
+
+</div>
+</div><div class="clearfix media-block browse-reviews-row">
+<div class="media-avatar">
+												<strong  class="i-wrap ig-wrap-common i-yellow-star-common-wrap"><i  class="i ig-common i-yellow-star-common"></i> ROTD 7/24/2013</strong>
+								<div class="user-passport">
+			
+
+
+
+	<div class="photo-box pb-ms">
+			<a href="http://www.yelp.com/user_details?userid=N22WLgi1dnMC3CSWPz5j-w">
+				<img alt="Photo of Marianna G." class="photo-box-img" height="100" src="http://s3-media3.ak.yelpcdn.com/photo/s_F3wHyS7jaDLMN02qybbg/ms.jpg" width="100">
+			</a>
+	</div>
+
+			<ul class="user-stats">
+		<li class="friend-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-friends-orange-common-wrap"><i  class="i ig-common i-friends-orange-common"></i> 50 <span class="offscreen">friends</span></span>
+		</li>
+		<li class="review-count miniOrange">
+			<span  class="i-wrap ig-wrap-common i-star-orange-common-wrap new-star-icon"><i  class="i ig-common i-star-orange-common"></i> 74 <span class="offscreen">reviews</span></span>
+		</li>
+	</ul>
+
+
+			<ul class="user-passport-info ieSucks">
+					<li class="user-name">
+										<a href="http://www.yelp.com/user_details?userid=N22WLgi1dnMC3CSWPz5j-w">Marianna G.</a>
+
+					</li>
+					<li class="user-location">Northeast, Minneapolis, MN</li>
+			</ul>
+	</div>
+
+
+
+</div><div class="media-story">
+						<div class="browseReviewsReview">
+							<div class='rating-stats'>
+								<a href="/biz/maya-cuisine-minneapolis#hrid:i4g04xRSlRjTB-qY6Sbgmg" class="browseReviewsBizName">Maya Cuisine</a>
+									
+		<div class="rating">
+		<i class="star-img stars_5" title="5.0 star rating">
+			<img alt="5.0 star rating" class="offscreen" height="303" src="http://s3-media3.ak.yelpcdn.com/assets/2/www/img/7d58085d03a1/ico/stars/v2/stars_map.png" width="84">
+		</i>
+	</div>
+
+
+								<em>2/3/2013</em>
+							</div>
+							<p>
+								Maya Cuisine, I just can't quit you. We started coming here a couple of months ago and it has quickly become our default when we need a quick and tasty dinner. The options seem practically endless: from ground beef to beef tongue, there is something for everyone at Maya, whether you're a tepid Minnesotan who likes to stick with flavors, spice levels, and body parts that you know, or whether your palate tends toward adventure. <br><br>We stick to mostly tacos and tostadas, but from there our meals are unpredictable. The meats are all delicious and fresh, and some of them might also make your mouth light on fire - that's where the sour cream and lime come in handy, though, right?! You get a lot of bang for your buck, with tacos and tostadas costing $2 each and, don't worry, they'll fill you up. <br><br>The best thing about Maya, though, is the people. I don't know that I've ever felt so welcome in a shop. The owners and staff are helpful, patient with those of us who never have a clue what we want to order, and shoot smiles at you that will make your day. You can tell that they care about what kind of food they're preparing for you and they do a really good job at it. <br><br>Maya Cuisine is casual yet totally welcoming and a perfect addition to our 'hood. You'll see all kinds of people coming for a big stack o' deliciousness, and it's a perfect reflection of the NE community. We love it for the food, for the people, and for that indescribable affinity that a person can develop for a place. Oh, and now they have guacamole, so in case it wasn't already, our love for Maya is a done deal.
+							</p>
+										
+		<div class="rateReview ufc-feedback clearfix" data-review-id="i4g04xRSlRjTB-qY6Sbgmg">
+				<p class="review-intro review-message">Was this review &hellip;?</p>
+				<ul>
+							<li class="useful ufc-stat inline-block">
+		<a href="javascript:;" rel="useful" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-useful-common-wrap button-content"><i  class="i ig-common i-ufc-useful-common"></i> 	<span class="vote-type">Useful</span>
+	<span class="count">6</span></span></a>
+	</li>
+
+							<li class="funny ufc-stat inline-block">
+		<a href="javascript:;" rel="funny" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-funny-common-wrap button-content"><i  class="i ig-common i-ufc-funny-common"></i> 	<span class="vote-type">Funny</span>
+	<span class="count">4</span></span></a>
+	</li>
+
+							<li class="cool ufc-stat inline-block">
+		<a href="javascript:;" rel="cool" class="ybtn ybtn-tertiary ybtn-large inline-block"><span  class="i-wrap ig-wrap-common i-ufc-cool-common-wrap button-content"><i  class="i ig-common i-ufc-cool-common"></i> 	<span class="vote-type">Cool</span>
+	<span class="count">5</span></span></a>
+	</li>
+
+				</ul>
+		</div>
+
+
+						</div>
+						<div class="browseReviewActions">
+
+								
+	<a data-pop-uri="/send_to_friend/review/i4g04xRSlRjTB-qY6Sbgmg" href="/biz_share?bizid=mdXoIXksYTiJhsYo-uknkQ&amp;return_url=%2Fbiz%2FmdXoIXksYTiJhsYo-uknkQ&amp;reviewid=i4g04xRSlRjTB-qY6Sbgmg" onclick="yelp.ui.widget.SendToFriends.open(this, &#34;mdXoIXksYTiJhsYo-uknkQ&#34;, &#34;i4g04xRSlRjTB-qY6Sbgmg&#34;, null); return false;" class="i-wrap ig-wrap-common i-orange-envelope-common-wrap sendToFriend send-to-friend"><i  class="i ig-common i-orange-envelope-common"></i> Send to a Friend</a>
+
+
+								
+	<a href="/signup" rel="maya-cuisine-minneapolis" title="Something catch your eye?<br>Bookmark this business to build your own list of fun ideas to check out later!" class="i-wrap ig-wrap-common i-orange-bookmark-common-wrap bookmark"><i  class="i ig-common i-orange-bookmark-common"></i> Bookmark</a>
+
+								<a href="/biz/maya-cuisine-minneapolis#hrid:i4g04xRSlRjTB-qY6Sbgmg" class="i-wrap ig-wrap-common i-orange-link-common-wrap linkToThis"><i  class="i ig-common i-orange-link-common"></i> Link to This Review</a>
+
+						</div>
+
+</div>
+</div>		<div id="pagerBottom">
+						<table cellpadding="0" cellspacing="0" border="0" width="95%" class="fs_pagination_controls">
+		<tr>
+			<td class="range-of-total">
+					<span>61 to 70 of 1893</span>
+			</td>
+				<td class="go-to-page">
+					<span class="pagination-text">Go to Page</span>
+					 ... 
+							<a id="pager_page_3" class="pager-page" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=20"> 3</a>
+							<a id="pager_page_4" class="pager-page" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=30"> 4</a>
+							<a id="pager_page_5" class="pager-page" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=40"> 5</a>
+							<a id="pager_page_6" class="pager-page" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=50"> 6</a>
+							<strong>7</strong>
+							<a id="pager_page_8" class="pager-page" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=70"> 8</a>
+							<a id="pager_page_9" class="pager-page" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=80"> 9</a>
+							<a id="pager_page_10" class="pager-page" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=90"> 10</a>
+							<a id="pager_page_11" class="pager-page" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=100"> 11</a>
+					 ... 
+				</td>
+				<td align="right" class="nav-links"><a id="pager_page_prev" class="pager-page" accesskey="p" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=50">Previous</a> | <a id="pager_page_next" class="pager-page" accesskey="n" href="/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=70">Next</a></td>
+		</tr>
+	</table>
+
+		</div>
+
+
+
+</div>
+</div>
+</div>			</div>
+
+
+
+			<!-- google_ad_section_start(weight=ignore) -->
+<!-- <a href="/biz/outlook-autumn-market-fundamental-catwalk-flimsy-roost-legibility-individualism-grocer-predestination-8">yelp</a> -->
+<div class="footer">
+	<div class="footer-wrap">
+		<div class="footer-menu-wrap clearfix">
+			<div class="footer-menu clearfix first">
+				<h3 class="menu-header">About</h3>
+				<ul class="menu-list">
+					<li>
+						<a href="/about">About Yelp</a>
+					</li>
+					<li>
+						<a href="http://officialblog.yelp.com">Yelp Blog</a>
+					</li>
+					<li>
+						<a href="http://www.yelp-press.com/">Press</a>
+					</li>
+					<li>
+						<a href="http://www.yelp-ir.com/">Investor Relations</a>
+					</li>
+					<li>
+						<a href="/static?p=tos&amp;country=US">Terms of Service</a>
+					</li>
+					<li>
+						<a href="/tos/privacy_en_us_20130910">Privacy Policy</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footer-menu clearfix">
+				<h3 class="menu-header">Help</h3>
+				<ul class="menu-list">
+					<li>
+						<a href="/faq">FAQ</a>
+					</li>
+					<li>
+						<a href="/advertise">Advertise</a>
+					</li>
+					<li>
+						<a href="/guidelines">Content Guidelines</a>
+					</li>
+					<li>
+						<a href="/contact">Contact Yelp</a>
+					</li>
+						<li>
+							<a href="https://biz.yelp.com/support">Business Support</a>
+						</li>
+					<li>
+						<a href="http://www.yelp.com/developers">Developers</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footer-menu clearfix">
+				<h3 class="menu-header">More</h3>
+				<ul class="menu-list">
+					<li>
+						<a href="/careers?country=US">Careers</a>
+					</li>
+					<li>
+							<a href="/yelpmobile">Yelp Mobile</a>
+					</li>
+						<li>
+							<a href="/weekly">The Weekly Yelp</a>
+						</li>
+						<li>
+							<a href="/store">Yelp Apparel</a>
+						</li>
+					<li>
+						<a href="/rss">RSS</a>
+					</li>
+						<li>
+							<a href="/topsearches">Top Searches</a>
+						</li>
+				</ul>
+			</div>
+
+			<div class="languages-menu footer-menu clearfix">
+				<h3 class="menu-header">Languages</h3>
+				<div class="footer-subsection">
+					
+	<div id="language-selector-wrap" class="drop-menu-origin i18n-selector-wrap ieSucks">
+		<a href=/language id="language-selector-anchor" class="drop-menu-link embossed-text-white">
+			<span  class="i-wrap ig-wrap-common i-dropdown-arrow-common-wrap ig-wrap-common-r dropdown-arrow"><i  class="i ig-common i-dropdown-arrow-common"></i> English</span>
+		</a>
+		<div id="language-selector-menu" class="drop-menu">
+				<ul>
+			<li>
+				<ul class="language-items">
+							<li>
+								<a href="http://www.yelp.cz/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Čeština (Česká republika)</a>
+							</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="language-items">
+							<li>
+								<a href="http://www.yelp.dk/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Dansk (Danmark)</a>
+							</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="language-items">
+							<li>
+								<a href="http://www.yelp.de/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Deutsch (Deutschland)</a>
+							</li>
+							<li>
+								<a href="http://de.yelp.ch/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Deutsch (Schweiz)</a>
+							</li>
+							<li>
+								<a href="http://www.yelp.at/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Deutsch (Österreich)</a>
+							</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="language-items">
+							<li>
+								<a href="http://www.yelp.com.au/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">English (Australia)</a>
+							</li>
+							<li>
+								<a href="http://en.yelp.be/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">English (Belgium)</a>
+							</li>
+							<li>
+								<a href="http://www.yelp.ca/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">English (Canada)</a>
+							</li>
+							<li>
+								<a href="http://www.yelp.co.nz/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">English (New Zealand)</a>
+							</li>
+							<li>
+								<a href="http://www.yelp.ie/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">English (Republic of Ireland)</a>
+							</li>
+							<li>
+								<a href="http://www.yelp.com.sg/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">English (Singapore)</a>
+							</li>
+							<li>
+								<a href="http://en.yelp.ch/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">English (Switzerland)</a>
+							</li>
+							<li>
+								<a href="http://www.yelp.co.uk/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">English (United Kingdom)</a>
+							</li>
+							<li class="language-selector-selection">English (United States)</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="language-items">
+							<li>
+								<a href="http://www.yelp.es/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Español (España)</a>
+							</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="language-items">
+							<li>
+								<a href="http://fr.yelp.be/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Français (Belgique)</a>
+							</li>
+							<li>
+								<a href="http://fr.yelp.ca/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Français (Canada)</a>
+							</li>
+							<li>
+								<a href="http://www.yelp.fr/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Français (France)</a>
+							</li>
+							<li>
+								<a href="http://fr.yelp.ch/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Français (Suisse)</a>
+							</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="language-items">
+							<li>
+								<a href="http://www.yelp.it/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Italiano (Italia)</a>
+							</li>
+							<li>
+								<a href="http://it.yelp.ch/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Italiano (Svizzera)</a>
+							</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="language-items">
+							<li>
+								<a href="http://nl.yelp.be/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Nederlands (België)</a>
+							</li>
+							<li>
+								<a href="http://www.yelp.nl/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Nederlands (Nederland)</a>
+							</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="language-items">
+							<li>
+								<a href="http://www.yelp.no/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Norsk (Norge)</a>
+							</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="language-items">
+							<li>
+								<a href="http://www.yelp.pl/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Polski (Polska)</a>
+							</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="language-items">
+							<li>
+								<a href="http://www.yelp.com.br/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Português (Brasil)</a>
+							</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="language-items">
+							<li>
+								<a href="http://fi.yelp.fi/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Suomi (Suomi)</a>
+							</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="language-items">
+							<li>
+								<a href="http://sv.yelp.fi/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Svenska (Finland)</a>
+							</li>
+							<li>
+								<a href="http://www.yelp.se/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Svenska (Sverige)</a>
+							</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="language-items last">
+							<li>
+								<a href="http://www.yelp.com.tr/browse/reviews/picks?edition_id=O0nmI3IrPyK_jhDK6spZUQ&amp;start=60" class="drop-down-menu-link">Türkçe (Türkiye)</a>
+							</li>
+				</ul>
+			</li>
+	</ul>
+
+		</div>
+	</div>
+
+					
+				</div>
+				<h3 class="menu-header">Countries</h3>
+				<div class="footer-subsection">
+						<div id="country-selector-wrap" class="drop-menu-origin i18n-selector-wrap ieSucks">
+		<a href="#" id="country-selector-anchor" class="drop-menu-link embossed-text-white">
+			<span  class="i-wrap ig-wrap-common i-dropdown-arrow-common-wrap ig-wrap-common-r dropdown-arrow"><i  class="i ig-common i-dropdown-arrow-common"></i> United States</span>
+		</a>
+		<div id="country-selector-menu" class="drop-menu">
+				<ul>
+			<li>
+				<a href="http://www.yelp.com.au/" class="drop-down-menu-link">Australia</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.at/" class="drop-down-menu-link">Austria</a>
+			</li>
+			<li>
+				<a href="http://en.yelp.be/" class="drop-down-menu-link">Belgium</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.com.br/" class="drop-down-menu-link">Brazil</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.ca/" class="drop-down-menu-link">Canada</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.cz/" class="drop-down-menu-link">Czech Republic</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.dk/" class="drop-down-menu-link">Denmark</a>
+			</li>
+			<li>
+				<a href="http://fi.yelp.fi/" class="drop-down-menu-link">Finland</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.fr/" class="drop-down-menu-link">France</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.de/" class="drop-down-menu-link">Germany</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.ie/" class="drop-down-menu-link">Ireland</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.it/" class="drop-down-menu-link">Italy</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.co.nz/" class="drop-down-menu-link">New Zealand</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.no/" class="drop-down-menu-link">Norway</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.pl/" class="drop-down-menu-link">Poland</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.com.sg/" class="drop-down-menu-link">Singapore</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.es/" class="drop-down-menu-link">Spain</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.se/" class="drop-down-menu-link">Sweden</a>
+			</li>
+			<li>
+				<a href="http://de.yelp.ch/" class="drop-down-menu-link">Switzerland</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.nl/" class="drop-down-menu-link">The Netherlands</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.com.tr/" class="drop-down-menu-link">Turkey</a>
+			</li>
+			<li>
+				<a href="http://www.yelp.co.uk/" class="drop-down-menu-link">United Kingdom</a>
+			</li>
+	</ul>
+
+		</div>
+	</div>
+
+					
+				</div>
+			</div>
+		</div>
+
+
+				<div class="footer-list directory lesser-text clearfix">
+					<span class="list-title">Site Map</span>
+					<ul>
+							<li><a href="/atlanta">Atlanta</a></li>
+							<li><a href="/austin">Austin</a></li>
+							<li><a href="/boston">Boston</a></li>
+							<li><a href="/chicago">Chicago</a></li>
+							<li><a href="/dallas">Dallas</a></li>
+							<li><a href="/denver">Denver</a></li>
+							<li><a href="/detroit">Detroit</a></li>
+							<li><a href="/honolulu">Honolulu</a></li>
+							<li><a href="/houston">Houston</a></li>
+							<li><a href="/la">Los Angeles</a></li>
+							<li><a href="/miami">Miami</a></li>
+							<li><a href="/minneapolis">Minneapolis</a></li>
+							<li><a href="/nyc">New York</a></li>
+							<li><a href="/philadelphia">Philadelphia</a></li>
+							<li><a href="/portland">Portland</a></li>
+							<li><a href="/sacramento">Sacramento</a></li>
+							<li><a href="/san-diego">San Diego</a></li>
+							<li><a href="/sf">San Francisco</a></li>
+							<li><a href="/san-jose">San Jose</a></li>
+							<li><a href="/seattle">Seattle</a></li>
+							<li><a href="/dc">Washington, DC</a></li>
+							<li><a href="/locations">More Cities</a></li>
+					</ul>
+				</div>
+		
+		<img class="city-landscape-img" src="http://s3-media4.ak.yelpcdn.com/assets/2/www/img/e41bc8917803/structural/happy_footer.png" alt="">
+
+		<p class="copyright lesser-text">
+					Copyright © 2004–2013 Yelp Inc. Yelp, <img src="http://s3-media4.ak.yelpcdn.com/assets/2/www/img/4ed2548aad2a/logo/logo_tiny.png" alt="Yelp logo" id="footer-copyright-logo">, <img src="http://s3-media3.ak.yelpcdn.com/assets/2/www/img/2fb72f83ab0f/logo/burst_tiny.png" alt="Yelp burst"> and related marks are registered trademarks of Yelp.
+
+		</p>
+
+			<!--Source: Freebase (http://www.freebase.com/), licensed under CC-BY (http://creativecommons.org/licenses/by/2.5/)-->
+
+
+	</div>
+</div>
+<!-- google_ad_section_end -->
+
+			<div style="display: none;" id="page-popups">
+			</div>
+
+
+				<script type="text/javascript">yelp.init.wrapper("yelp.init.qypeGhostUsers", null);</script>
+
+				<div id="qype-ghost-user-hovercard" class="hidden">
+		<div class="whatsthis-hovercard">
+			<h3>What's This?</h3>
+			<p>
+				This user has arrived from Qype, the newest addition to the Yelp family. The Yelp &amp; Qype engineering team is hard at work integrating the two sites, so stay tuned! Thanks for your patience.
+			</p>
+		</div>
+	</div>
+
+
+		</div> 
+
+
+				
+<script type="text/javascript">
+					yelp.util.SitRep.measureInternal("frontend_performance", 'body:footer:js:start');
+
+</script>
+		
+			
+
+				<script type="text/javascript">yelp.init.wrapper("yelp.init.base.widgets", {"initPopAddFriend": false, "deferROModeScanLinks": false, "initPopPM": false, "isReadOnly": false, "initPopBookmarkSignup": true, "isLoggedIn": false, "initPopCompliments": false});</script>
+
+	<script type="text/javascript">yelp.init.wrapper("yelp.ui.widget.ufc.init", null);</script>
+
+	<script type="text/javascript">yelp.init.wrapper("yelp.ui.widget.ufc.initExplanation", "potd-explanation-link");</script>
+
+
+
+<script type="text/javascript">
+
+
+</script>
+		
+			
+<script type="text/javascript">
+							window._qevents = window._qevents || [];
+		window._qevents.push({qacct: "p-M4yfUTCPeS3vn"});
+
+		(function() {
+			var elem = document.createElement('script');
+			elem.src = "https://secure.quantserve.com/quant.js";
+			elem.type = "text/javascript";
+			elem.async = true;
+			var scpt = document.getElementsByTagName('script')[0];
+			scpt.parentNode.insertBefore(elem, scpt);
+		})();
+
+
+</script>
+		
+	<noscript>
+		<img style="display: none;" src="https://pixel.quantserve.com/pixel/p-M4yfUTCPeS3vn.gif" border="0" height="1" width="1" alt="Quantcast"/>
+	</noscript>
+
+
+				<script type="text/javascript">yelp.init.wrapper("yelp.util.quantcast.ensureSegmentsExist", null);</script>
+
+
+		
+<script type="text/javascript">
+								(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = "http://www.google-analytics.com/ga.js";
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+
+
+</script>
+		
+
+			
+
+		
+<script type="text/javascript">
+							(function loadSpice(){
+			var img = new Image();
+			if (!document.webkitHidden) {
+				img.src = ['/sp', 'ice?', 'r=', "0397a013080f4467", '&pagevis', '=0'].join('');
+			} else {
+				var spiced = false;
+				document.addEventListener('webkitvisibilitychange', function(){
+					if (document.webkitHidden || spiced) {
+						return;
+					}
+					spiced = true;
+					img.src = ['/s','pice', '?r=', "0397a013080f4467", '&', 'pagevis=1'].join('');
+				});
+			}
+		})();
+
+
+</script>
+
+
+		
+<script type="text/javascript">
+		if (window.top !== window.self)
+		{
+			document.write('<img src=' + "https://www.yelp.com/iframeping?request_from=None" + ' alt="">')
+		}
+
+
+</script>
+
+
+			
+<script type="text/javascript">
+								yelp.async.Script.load((document.location.protocol == 'https:' ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js', function() {
+					if (window.COMSCORE && window.COMSCORE['beacon']) {
+		window.COMSCORE['beacon']({"c15": "", "c3": "", "c2": 7130511, "c1": 2, "c6": "", "c5": "", "c4": ""});
+	}
+
+			});
+
+
+</script>
+		
+			<noscript>
+		<img src="http://b.scorecardresearch.com/p?cj=1&amp;c15=&amp;c3=&amp;c2=7130511&amp;c1=2&amp;c6=&amp;c5=&amp;c4=">
+	</noscript>
+
+
+
+		
+<script type="text/javascript">
+								(function () {
+				var d = new Image(1, 1);
+				d.onerror = d.onload = function () {
+					d.onerror = d.onload = null;
+				};
+				d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-804377h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+			})();
+
+
+</script>
+				<noscript>
+				<img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-804377h&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="">
+		</noscript>
+
+
+			<script type="text/javascript">yelp.init.wrapper("yelp.init.base.requireJS", {"scripts": [["//connect.facebook.net/en_US/all.js", "vendor.fb.joey"], ["http://s3-media3.ak.yelpcdn.com/assets/2/www/js/40fa16c20174/yelp/ui/widget/fb/fb-async.min.js", "yelp.ui.widget.fb.fb-async"]]});</script>
+
+			
+<script type="text/javascript">
+					yelp.hub.publish('dom.body.end', new Date());
+
+</script>
+		
+			
+<script type="text/javascript">
+					yelp.util.SitRep.measureInternal("frontend_performance", 'body:footer:js:end');
+
+</script>
+		
+
+<script type="text/javascript">
+				yelp.config.csrf = {"UFC": "25721920b92755d363474131f2de087b01a20d5e38cb53f7784f1356778a829f", "FacebookJSONP": "ba48ae07377515e94c49b917d6775123ff7ae1506f2d1747d66e4dc5f4390262"};
+
+
+</script>
+		
+
+<script type="text/javascript">
+					yelp.util.SitRep.measureInternal("frontend_performance", 'body:end');
+
+
+</script>
+			</body>
+</html>
