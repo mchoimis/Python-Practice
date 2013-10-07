@@ -36,4 +36,4 @@ foreach $arg (@ARGV) {
         print "$1-$2-$3 is a full phone number\n"; 
     } 
 } 
-## g is for global, makes it keep going, [] square brackers make things optional, ? means you can have either one of the things
+# g is for global, makes it keep going, [] square brackers make things optional, ? means you can have either one of the things

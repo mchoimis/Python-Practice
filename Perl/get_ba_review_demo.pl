@@ -15,7 +15,10 @@ $starturls = 0;
 $baurl = null;
 
 # here you need to specify the location from the file where you saved the Google search
-open(LIST, "C:/Users/nicole/temp.html"); # opening three files that are already saved
+open(LIST, "C:/Users/Nicole/Documents/GitHub/Python-Practice/Perl/temp.html"); 
+# opening three files that are already saved
+# in Perl, you have to use forward slash instead of backslash in the file path !!!!!
+ 
 while ($next = <LIST>) {
 
 if ($next =~ /href="http:\/\/beeradvocate.com\/beer\/profile\/(.*?)"/) {
