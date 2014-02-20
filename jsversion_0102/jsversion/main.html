@@ -1,0 +1,261 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./main.css">
+		<script type="text/javascript" src="./parser.js" ></script>
+		<script type="text/javascript" src="./database.js"></script>
+		<script type="text/javascript" src="./categories.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+
+		<script>
+
+		function run() {
+			goOrStop = true
+
+			var db = startDB();
+			var seedId = prompt("Please enter the first Seed", "");
+			
+			if (seedId == null | seedId == "") {
+				setStatusText("No seed, using data we have");
+			}
+			else {
+				setStatusText("Parsing seed")
+				userAndFriend(db, seedId)
+				reviewAndBiz(db, seedId)
+			}
+			
+			var mainLoop = setInterval(function() {
+				if (goOrStop == false) {
+					clearInterval(mainLoop)
+					setStatusText("PAUSED")
+					return;
+				}
+				// FOR EFFICIENCY, HANDLING A BIZID LIST
+				var QUERY = "SELECT biz_id FROM Biz"
+				doQuery(db, QUERY, function(tx, queryResult) {
+					var bizIdList = []
+					for (var i = 0; i < queryResult.rows.length; i++) {
+						bizIdList.push(queryResult.rows.item(i)['biz_id'])
+					}
+
+					var QUERY = "SELECT user_id FROM User WHERE friends_num IS NULL"
+					doQuery(db, QUERY, callback.bind(this, bizIdList))
+					function callback(bizIdList, tx, queryResult) {
+						if (queryResult.rows.length == 0) {
+							setStatusText("No more user to parse! please restart with new seed!")
+							return;
+						}
+						var seedList = []
+						for (var i = 0; i < queryResult.rows.length; i++) {
+							seedList.push(queryResult.rows.item(i))
+						}
+
+						var i = 0
+						var subLoop = setInterval(function() {
+							if (i >= seedList.length) {
+								clearInterval(subLoop)
+							}
+							if (goOrStop == false) {
+								clearInterval(subLoop)
+								setStatusText("ALMOST DONE...")
+								return;
+							}
+							var seedId = seedList[i]['user_id']
+							userAndFriend(db, seedId)
+							reviewAndBiz(db, seedId, bizIdList)
+
+							i++
+						}, 1000)
+					}
+				})
+			}, 30000)
+
+
+			
+		}
+
+		function userAndFriend(db, seedId) {
+			/* ABOUT USER DATA */
+			var userData = parseUserPage(seedId)
+			var QUERY = makeInsertQuery("User", userData)
+			console.log(QUERY)
+			doQuery(db, QUERY)
+
+			/* ABOUT FRIEND DATA */
+			var friendsList = parseFriendPage(seedId)
+			for (var i = 0; i < friendsList.length; i++) {
+				var friendData = friendsList[i]
+				var friendId = friendData['user_id']
+
+				QUERY = makeInsertQuery("User", friendData)
+				doQuery(db, QUERY, callbackF.bind(this, friendId))
+				function callbackF(friendId, tx, queryResult) {
+					var relationData = {'user_id':seedId, 'friend_id':friendId}
+					QUERY = makeInsertQuery("Friend", relationData)
+					doQuery(db, QUERY)
+				}
+			}
+		}
+
+		function reviewAndBiz(db, seedId, bizIdList) {
+			if (bizIdList == null)
+				bizIdList = []
+
+			/* REVIEW-BIZ-BIZ_CAT */
+			var reviewsList = parseReviewPage(seedId)
+			for (var i = 0; i < reviewsList.length; i++) {
+				var reviewData = reviewsList[i]
+				
+				/* IF BIZ DATA ALREADY EXIST
+				PARSE ONLY REVIEW DATA*/
+				var bizId = reviewData['biz_id']
+				if (bizIdList.indexOf(bizId) != -1) {
+					var QUERY = makeInsertQuery("Review", reviewData)
+					doQuery(db, QUERY)
+					return;
+				}
+
+				/* PARSE BIZ DATA */
+				var bizData = parseBizPage(bizId)
+				var categories = bizData['category']
+				delete bizData['category']
+
+				var QUERY = makeInsertQuery("Biz", bizData)
+				doQuery(db, QUERY, callbackR.bind(this, reviewData))
+				
+				function callbackR(reviewData, tx, queryResult) {
+					/* ABOUT REVIEW DATA */
+					var QUERY = makeInsertQuery("Review", reviewData)
+					doQuery(db, QUERY)
+				}
+
+				/* ABOUT BIZ_CAT */
+				for (var j = 0; j < categories.length; j++) {
+					var conditions = []
+					var category = categories[j]
+					for (var k = 0; k < category.length; k++) {
+						category[k] = category[k].replace("'", "''")
+						var condition = "level" + k + "='" + category[k] + "'"
+						conditions.push(condition)
+					}
+					conditions = conditions.join(' AND ')
+					var QUERY = "SELECT cat_id FROM Category WHERE " + conditions + ";"
+					doQuery(db, QUERY, callbackC.bind(this, bizId));
+
+					function callbackC(bizId, tx, queryResult) {
+						console.log("CCCCCCCCCCCCC "+ bizId)
+						var categoryId = queryResult.rows.item(0)['cat_id']
+						var bizcatData = new Object()
+						bizcatData['biz_id'] = bizId
+						bizcatData['cat_id'] = categoryId
+						
+						var QUERY = makeInsertQuery("BizCat", bizcatData)
+						doQuery(db, QUERY)
+						setStatusText("Parsed " + seedId)
+					}
+				}
+			}
+			setStatusText("Completed " + seedId)
+		}
+
+		function wait(milisecond) {
+			var now = new Date();
+			var exitTime = now.getTime() + milisecond;
+			while(true) {
+				var now = new Date();
+				if(now.getTime()>exitTime)
+                	return;
+			}
+		}
+
+		function stop() {
+			goOrStop = false;
+			setStatusText("LAST ONE THING...")
+		}
+		function reset() {
+			var db = startDB();
+			doQuery(db, "DROP TABLE Review");
+			doQuery(db, "DROP TABLE Friend");
+			doQuery(db, "DROP TABLE BizCat");
+			doQuery(db, "DROP TABLE Biz");
+			doQuery(db, "DROP TABLE User");
+			doQuery(db, "DROP TABLE Category");
+			createUserTable(db)
+			createFriendTable(db)
+			createCategoryTable(db)
+			createBizTable(db)
+			createBizCatTable(db)
+			createReviewTable(db)
+			insertCategoryData(db)
+			setStatusText("DATABASE RESET")
+		}
+		function setStatusText(text) {
+			var status = document.getElementById("status");
+			status.innerText = text;
+		}
+		function setResultText(text) {
+			var result = document.getElementById("result");
+			result.innerText = text;
+		}
+
+		function showResult(tableName) {
+			var db = startDB();
+			var QUERY = "select * from " + tableName
+			var textarea = document.getElementById("result");
+			setStatusText("getting data from database...")
+
+			doQuery(db, QUERY, function(tx, queryResult) {
+				if (queryResult.rows.length == 0) {
+					setStatusText("No data")
+					return;
+				}
+				var resultString = ""
+				var simpleString = ""
+				for (var i = 0; i < queryResult.rows.length; i++) {
+					var row = queryResult.rows.item(i);
+					resultString += JSON.stringify(row);
+					resultString += '\n';
+					var n = 0
+					for (key in row) {
+						if (n > 1)
+							break;
+						simpleString += key + ':' + row[key] + ', '
+						n++
+					}
+					simpleString = simpleString.substring(0, simpleString.length-2) + '\n'
+				}
+				
+				textarea.innerText = simpleString;
+
+				var download = document.getElementById("download")
+				var a = download.appendChild(document.createElement("a"));
+				a.id = "download_data"
+				a.download = tableName + ".txt";
+				a.href = "data:text/plain;base64," + btoa(resultString);
+				// a.innerHTML = "download parsed.txt";
+				document.getElementById('download_data').click();
+				a.remove()
+				setStatusText("Done")
+			});
+		}
+		</script>
+
+	</head>
+	<body>
+		<div class="wrapper">
+			<button id="run" class="button" onclick="run();">파싱 시작</button>
+			<button id="stop" class="button" onclick="stop();">중지</button>
+			<button id="reset" class="button" onclick="reset();">초기화</button>
+		</div>
+		<div class="wrapper">
+			<button id="show1" class="button" onclick="showResult('User')">Users</button>
+			<button id="show2" class="button" onclick="showResult('Friend')">Friends</button>
+			<button id="show3" class="button" onclick="showResult('Biz')">Bizs</button>
+			<button id="show4" class="button" onclick="showResult('Review')">Reviews</button>
+		</div>
+		<div id="status">STATUS TEXT HERE</div>
+		<textarea id="result">RESULT WILL BE SHOWN HERE</textarea>
+		<div id="download" class="wrapper">
+		</div>
+	</body>
+</html>

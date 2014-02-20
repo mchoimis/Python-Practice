@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<script type="text/javascript" src="./parser.js" ></script>
+		<script type="text/javascript" src="./database.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+		<script>
+
+		
+
+		function run() {
+			var db = startDB();
+			var seed_id = getSeed();
+			goOrStop = true
+			
+			var QUERY = "SELECT friends_num FROM User WHERE userid = '" + seed_id + "'"
+			selectQuery(db, QUERY, function(tx, query_result) {
+			if (query_result.rows.length == 0) {
+				alert("not here")
+				updateSeed(db, seed_id)
+			}
+			else {
+				alert("already here")
+				var result = query_result.rows.item(0)
+				if ( result.friends_num < 0 || result == {} )
+					updateSeed(db, seed_id)
+			}
+			
+
+			var repeat_main = setInterval(function() {
+				if (goOrStop == false) {
+					clearInterval(repeat_main)
+					setStatusText("PAUSED")
+				}
+				var QUERY = "SELECT userid FROM User WHERE friends_num = -1"
+				selectQuery(db, QUERY, function(tx, query_result) {
+
+				var result = query_result.rows
+				if (result.length == 0) {
+					setStatusText("No more users to insert!")
+					clearInterval(repeat_main)
+				}
+
+				var i = 0
+				var repeat_selected = setInterval(function() {
+					if (goOrStop == false) {
+						clearInterval(repeat_selected)
+						setStatusText("PAUSING...")
+					}
+					console.log("parsing... # " + result.item(i)['userid'])
+					updateSeed(db, result.item(i)['userid'])
+					i++;
+				}, 5000)
+				});
+			}, 30000)
+			})
+		}
+
+		function stop() {
+			goOrStop = false;
+			setStatusText("WILL BE PAUSE")
+		}
+
+		function reset() {
+			var db = startDB();
+			insertQuery(db, "DROP TABLE Review");
+			insertQuery(db, "DROP TABLE Friend");
+			insertQuery(db, "DROP TABLE Biz");
+			insertQuery(db, "DROP TABLE User");
+			createUserTable(db)
+			createFriendTable(db)
+			setStatusText("DATABASE RESET")
+		}
+		function setStatusText(text) {
+			var status = document.getElementById("status");
+			status.innerText = text;
+		}
+		function getSeed() {
+			var seed_id = prompt("Please enter the first Seed", "LnFIWZM_l__4t8Qxj3pnOg");
+
+			if (seed_id != null) {
+				setStatusText("Seed: " + seed_id);
+				return seed_id;
+			}
+		}
+
+		function updateSeed(db, seed_id) {
+			var data = parseUserPage(seed_id)
+			setStatusText("Updating... " + seed_id)
+			insertUserData(db, data)
+
+			var friend_list = parseFriendPage(seed_id, 0)
+			var filtered_list = []
+
+			// filter friends by location
+			for (var i = 0; i < friend_list.length; i++) {
+				var friend = friend_list[i];
+				if (friend['location'] == "Philadelphia, PA") {
+					filtered_list.push(friend)
+				}
+			}
+
+			for (var i = 0; i < filtered_list.length; i++) {
+				var friend = filtered_list[i];
+				insertUserData(db, friend)
+				insertFriendData(db, seed_id, friend['userid'])
+			}
+		}
+		</script>
+	</head>
+	<body>
+		<button id="run" class="button" onclick="run();">시작</button>
+		<button id="stop" class="button" onclick="stop();">중지</button>
+		<button id="reset" class="button" onclick="reset();">초기화</button>
+		<div id="status"></div>
+	</body>
+</html>

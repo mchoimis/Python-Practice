@@ -1,0 +1,37 @@
+body {
+	width: 100%;
+	margin: 0;
+}
+.wrapper {	
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 1000px;
+}
+.button {
+	display: inline-block;
+	width: 140px;
+	height: 40px;
+	background-color: #bb8888;
+	border: none;
+	font-size: 20px;
+	outline: none;
+}
+#status {
+	padding-top: 50px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width: 400px;
+	height: 40px;
+	font-size: 30px;
+}
+.text {
+	display: inline-block;
+	width: 250px;
+	height: 40px;
+	font-size: 25px;
+}

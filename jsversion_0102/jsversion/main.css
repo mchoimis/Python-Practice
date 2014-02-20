@@ -1,0 +1,38 @@
+body {
+	width: 100%;
+	margin: 0;
+}
+.wrapper {	
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 800px;
+}
+.button {
+	display: inline-block;
+	width: 140px;
+	height: 40px;
+	background-color: #bb8888;
+	border: none;
+	font-size: 20px;
+	outline: none;
+}
+#status {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width: 800px;
+	height: 40px;
+	font-size: 30px;
+}
+#result {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width: 800px;
+	height: 300px;
+	border: 3px solid gray;
+}

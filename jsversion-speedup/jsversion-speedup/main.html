@@ -1,0 +1,320 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./main.css">
+		<script type="text/javascript" src="./parser.js" ></script>
+		<script type="text/javascript" src="./database.js"></script>
+		<script type="text/javascript" src="./categories.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+
+		<script>
+
+		function setSeed(db) {
+			// GET SEED
+			var seedId = prompt("Please enter the first Seed", "");
+			if (seedId == null | seedId == "") {
+				setStatusText("Getting seed from Database...");
+			}
+			else {
+				setStatusText("Parsing seed")
+				userAndFriend(db, seedId)
+			}
+
+			return seedId
+		}
+
+		function controllerOne() {
+			firstSeed = true;
+			callbackNum = 0;
+			goOrStop = true;
+			remainCallback = 0;
+			waitCount = 0;
+			isSubLoopActing = 0;
+
+			var db = startDB();
+			var seedId = setSeed(db)
+
+			var mainLoop = setInterval(function() {
+				if (callbackNum > 0)
+					return;
+				if (isSubLoopActing == true)
+					return;
+				if (goOrStop == false) {
+					clearInterval(mainLoop)
+					setStatusText("COMPLETELY PAUSED")
+					return;
+				}
+
+				var QUERY = "SELECT user_id FROM User WHERE since IS NULL"
+				doQuery(db, QUERY, callback)
+				function callback(tx, queryResult) {
+					if (queryResult.rows.length == 0) {
+						setStatusText("No more user to parse! please restart with new seed!")
+						return;
+					}
+					var seedList = []
+					for (var i = 0; i < queryResult.rows.length; i++) {
+						seedList.push(queryResult.rows.item(i))
+					}
+					console.log("NEW SUBLOOP");
+
+					var curSeed = 0
+					var max = 100
+
+					isSubLoopActing = true;
+					var subLoop = setInterval(function() {
+						if (goOrStop == false) {
+							setStatusText("Wait a little bit")
+							if (callbackNum == 0) {
+								isSubLoopActing = false;
+								setStatusText("PAUSED")
+								clearInterval(subLoop)
+							}
+							return;
+						}
+						if (curSeed >= seedList.length) {
+							console.log("subLoop end");
+							isSubLoopActing = false;
+							clearInterval(subLoop)
+							return;
+						}
+						if (callbackNum > 0) {
+							setStatusText(curSeed + "/" + seedList.length + " : " + callbackNum/2+"%")
+							console.log("Callbacks: " + callbackNum + "/" + waitCount);
+							console.log("curSeed: " + curSeed + "/" + seedList.length);
+							if (remainCallback == callbackNum)
+								waitCount ++;
+							else waitCount = 0
+							if (waitCount > 10) {
+								callbackNum = 0;
+								waitCount = 0;
+								remainCallback = 0;
+								isSubLoopActing = false;
+								clearInterval(subLoop);
+								return;
+							}
+
+							remainCallback = callbackNum;
+							return;
+						}
+
+						if (seedList.length < max)
+							max = seedList.length;
+
+						for ( ; curSeed < max; curSeed++) {
+							var seedId = seedList[curSeed]['user_id']
+							userAndFriend(db, seedId)
+						}
+						max += 100;
+					}, 1000)
+				}
+			}, 10000)
+		}
+
+		function controllerTwo() {
+			callbackNum = 0;
+			goOrStop = true;
+			remainCallback = 0;
+			waitCount = 0;
+			isSubLoopActing = 0;
+
+			var db = startDB();
+
+			setStatusText("Getting users from DB...")
+			var mainLoop = setInterval(function() {
+				if (callbackNum > 0)
+					return;
+				if (isSubLoopActing == true)
+					return;
+				if (goOrStop == false) {
+					clearInterval(mainLoop)
+					setStatusText("COMPLETELY PAUSED")
+					return;
+				}
+
+				var QUERY = "SELECT user_id FROM User WHERE PA_reviews_num IS NULL"
+				doQuery(db, QUERY, callback)
+				function callback(tx, queryResult) {
+					if (queryResult.rows.length == 0) {
+						setStatusText("No more user to parse! please restart with new seed!")
+						return;
+					}
+					var seedList = []
+					for (var i = 0; i < queryResult.rows.length; i++) {
+						seedList.push(queryResult.rows.item(i))
+					}
+					console.log("NEW SUBLOOP");
+
+					var curSeed = 0
+					var max = 100
+
+					isSubLoopActing = true;
+					var subLoop = setInterval(function() {
+						if (goOrStop == false) {
+							setStatusText("Wait a little bit")
+							console.log("Callbacks: " + callbackNum + "/" + waitCount);
+							console.log("curSeed: " + curSeed + "/" + seedList.length);
+							if (callbackNum == 0) {
+								isSubLoopActing = false;
+								setStatusText("PAUSED")
+								clearInterval(subLoop)
+							}
+							return;
+						}
+						if (curSeed >= seedList.length) {
+							console.log("subLoop end");
+							isSubLoopActing = false;
+							clearInterval(subLoop)
+							return;
+						}
+						if (callbackNum > 0) {
+							setStatusText(curSeed + "/" + seedList.length + ", pages to parse : " + callbackNum)
+							console.log("Callbacks: " + callbackNum + "/" + waitCount);
+							console.log("curSeed: " + curSeed + "/" + seedList.length);
+							if (remainCallback == callbackNum)
+								waitCount ++;
+							else waitCount = 0
+							if (waitCount > 10) {
+								callbackNum = 0;
+								waitCount = 0;
+								remainCallback = 0;
+								isSubLoopActing = false;
+								clearInterval(subLoop);
+								return;
+							}
+
+							remainCallback = callbackNum;
+							return;
+						}
+
+						if (seedList.length < max)
+							max = seedList.length;
+
+						for ( ; curSeed < max; curSeed++) {
+							var seedId = seedList[curSeed]['user_id']
+							reviewAndBiz(db, seedId)
+						}
+						max += 100;
+					}, 1000)
+				}
+			}, 10000)
+		}
+
+		function userAndFriend(db, seedId) {
+			/* ABOUT USER DATA */
+			parseAndInsertUserPage(db, seedId)
+
+			/* ABOUT FRIEND DATA */
+			parseAndInsertFriendPage(db, seedId, 0)
+		}
+
+		function reviewAndBiz(db, seedId) {
+			/* ABOUT REVIEW DATA */
+			parseAndInsertReviewPage(db, seedId, 0)
+		}
+
+		function wait(milisecond) {
+			var now = new Date();
+			var exitTime = now.getTime() + milisecond;
+			while(true) {
+				var now = new Date();
+				if(now.getTime()>exitTime)
+                	return;
+			}
+		}
+
+		function stop() {
+			goOrStop = false;
+			setStatusText("LAST ONE THING...")
+		}
+		function reset() {
+			var db = startDB();
+			doQuery(db, "DROP TABLE Review");
+			doQuery(db, "DROP TABLE Friend");
+			doQuery(db, "DROP TABLE BizCat");
+			doQuery(db, "DROP TABLE Biz");
+			doQuery(db, "DROP TABLE User");
+			doQuery(db, "DROP TABLE Category");
+			createUserTable(db)
+			createFriendTable(db)
+			createCategoryTable(db)
+			createBizTable(db)
+			createBizCatTable(db)
+			createReviewTable(db)
+			insertCategoryData(db)
+			setStatusText("DATABASE RESET")
+		}
+		function setStatusText(text) {
+			var status = document.getElementById("status");
+			status.innerText = text;
+		}
+
+		function showResult(tableName) {
+			var db = startDB();
+			var QUERY = "select * from " + tableName
+			var textarea = document.getElementById("result");
+			setStatusText("getting data from database...")
+
+			doQuery(db, QUERY, function(tx, queryResult) {
+				if (queryResult.rows.length == 0) {
+					setStatusText("No data")
+					return;
+				}
+				var resultString = ""
+				// var simpleString = ""
+				console.log(queryResult.rows.length);
+				for (var i = 0; i < queryResult.rows.length; i++) {
+					console.log(i)
+					var row = queryResult.rows.item(i);
+					resultString += JSON.stringify(row);
+					resultString += '\n';
+					// var n = 0
+					// for (key in row) {
+					// 	if (n > 1)
+					// 		break;
+					// 	simpleString += key + ':' + row[key] + ', '
+					// 	n++
+					// }
+					// simpleString = simpleString.substring(0, simpleString.length-2) + '\n'
+				}
+				
+				// textarea.innerText = simpleString;
+
+				window.URL = window.URL || window.webkitURL;
+
+				var blob = new Blob([resultString], {type: 'text/plain'});
+
+				var a = document.createElement('a');
+				a.href = window.URL.createObjectURL(blob);
+				a.innerText = "Click to download"
+
+				var download = document.getElementById("download")
+				download.appendChild(a);
+
+				setStatusText("Done")
+
+			});
+		}
+		</script>
+
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="text"><span>PARSING</span></div>
+			<button id="run" class="button" onclick="controllerOne();">User/Friend</button>
+			<button id="run" class="button" onclick="controllerTwo();">Review/Biz</button>
+			<button id="stop" class="button" onclick="stop();">STOP</button>
+			<button id="reset" class="button" onclick="reset();">RESET DB</button>
+		</div>
+		<div class="wrapper">
+			<div class="text"><span>Save DB to txt</span></div>
+			<button id="show1" class="button" onclick="showResult('User')">Users</button>
+			<button id="show2" class="button" onclick="showResult('Friend')">Friends</button>
+			<button id="show3" class="button" onclick="showResult('Biz')">Bizs</button>
+			<button id="show4" class="button" onclick="showResult('Review')">Reviews</button>
+		</div>
+		<div id="status">STATUS TEXT HERE</div>
+		<div id="download" class="wrapper">
+		</div>
+	</body>
+</html>
