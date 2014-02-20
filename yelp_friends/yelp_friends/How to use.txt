@@ -1,0 +1,16 @@
+How to use
+1. install Python from http://www.python.org/download/
+2. install BeautifulSoup (file attached. see installBS4.png)
+3. write first user(starting point) url at start_info
+(e.g., http://www.yelp.com/user_details?userid=zXi8WzXV2lfefnnzPEnOOw)
+4. delete if result files (users.txt & relations.txt) exist
+5. run parsing.py
+
+
+EDITING
+
+in parsing.py, first part defining global constants.
+you can change the two constants by editing code yourself.
+- USER_NUM_TO_READ : number of users to parse
+- MAXIMUM_FRIENDS_NUM : maximum size of friends to parse per person.
+* Speed is different by downloading speed
