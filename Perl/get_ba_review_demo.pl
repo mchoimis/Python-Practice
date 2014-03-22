@@ -18,7 +18,7 @@ $baurl = null;
 open(LIST, "C:/Users/Nicole/Documents/GitHub/Python-Practice/Perl/temp.html"); 
 # opening three files that are already saved
 # in Perl, you have to use forward slash instead of backslash in the file path !!!!!
- 
+
 while ($next = <LIST>) {
 
 if ($next =~ /href="http:\/\/beeradvocate.com\/beer\/profile\/(.*?)"/) {
