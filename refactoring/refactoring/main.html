@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./main.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="text"><span>PARSING</span></div>
+			<button id="" class="button unable" onclick="crawlData()">GET DATA</button>
+			<button id="" class="button" onclick="start()">CHECK DIFF</button>
+			<button id="" class="button" onclick="">STOP</button>
+			<button id="" class="button" onclick="reset()">RESET DB</button>
+			<button id="" class="button unable" onclick="">UPDATE</button>
+		</div>
+		<div class="wrapper" style="display:none;">
+			<div class="text">WIDE TEXT</div>
+			<button id="" class="button wide" onclick=""></button>
+			<button id="" class="button wide" onclick=""></button>
+		</div>
+		<div class="wrapper">
+			<div class="text"><span>Download DB as txt</span></div>
+			<button id="show1" class="button" onclick="showResult('User')">Users</button>
+			<button id="show2" class="button" onclick="showResult('Friend')">Friends</button>
+			<button id="show3" class="button" onclick="showResult('Biz')">Bizs</button>
+			<button id="show4" class="button" onclick="showResult('Review')">Reviews</button>
+			<button id="show5" class="button" onclick="showCat()">Category</button>
+		</div>
+		<div class="vartext" id="task">TASK TEXT HERE</div>
+		<div class="vartext" id="status">STATUS TEXT HERE</div>
+		<div id="download" class="wrapper"></div>
+		<iframe id="viewer" width="1000px" height="1000px"></iframe>
+		
+		<!-- SCRIPT FILES -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+
+		<script type="text/javascript" src="./database.js"></script>
+		<script type="text/javascript" src="./categories.js"></script>
+		<script type="text/javascript" src="./db2txt.js"></script>
+
+		<script type="text/javascript" src="./parser.js" ></script>
+		<script type="text/javascript" src="./reparse.js"></script>
+		<script type="text/javascript" src="./recent.js"></script>
+		<script type="text/javascript" src="./utility.js" ></script>
+		
+		<script type="text/javascript" src="./controller.js"></script>
+		<script type="text/javascript" src="./interaction.js"></script>
+		<script type="text/javascript" src="./update.js"></script>
+
+		<!-- GLOBAL VARIABLES -->
+		<script>
+			// CONSTANTS
+			FOUR_HOUR_IN_MS = 4 * 60 * 60 * 1000
+			TWENTY_SECOND = 20 * 1000
+			TEN_MINUTE = 10 * 60 * 1000
+
+			// INTERVALS
+			PARSER_INTERVAL = FOUR_HOUR_IN_MS
+			STATUS_SHOWING_INTERVAL = TWENTY_SECOND
+			CHECK_RUNNING_INTERVAL = TEN_MINUTE
+
+			db = startDB()
+			callbackNum = 0
+			IS_CODE_RUNNING = false
+			STOP_SIGN = false
+			
+			STATUS_TEXT = "STATUS"
+			TASK_TEXT = "TASK"
+
+		</script>
+		
+	</body>
+</html>

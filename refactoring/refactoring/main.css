@@ -1,0 +1,43 @@
+body {
+	width: 100%;
+	margin: 0;
+}
+.wrapper {	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 1000px;
+}
+.button {
+	display: inline-block;
+	width: 140px;
+	height: 40px;
+	background-color: #eebbbb;
+	border: none;
+	font-size: 20px;
+	outline: none;
+}
+.unable {
+	background-color: #888888;
+}
+.wide {
+	width: 250px;
+}
+.text {
+	display: inline-block;
+	width: 250px;
+	height: 40px;
+	font-size: 25px;
+}
+.vartext {
+	padding-top: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 40px;
+	font-size: 30px;
+}
